@@ -1,0 +1,17 @@
+{
+  "model": "lightgbm",
+  "experiment_name": "lightgbm_median_v2",
+  "oof_auc": 0.9638990260618985,
+  "fold_auc_mean": 0.9639006867219491,
+  "fold_auc_std": 0.0007868394569394225,
+  "elapsed_minutes": 147.72990313768386,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count_min": 72,
+  "feature_count_max": 72,
+  "missing_strategy": "median",
+  "preset": "baseline",
+  "fold_registry": "fold_registry_5fold_seed2026_full.csv"
+}

@@ -1,0 +1,262 @@
+7.8s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.8s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.8s 3 0.00s - to python to disable frozen modules.
+7.8s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+8.6s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.6s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.6s 7 0.00s - to python to disable frozen modules.
+8.6s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+17.1s 9 Using competition data from: /kaggle/input/competitions/playground-series-s6e8
+20.8s 10 train=691,369, test=296,302, base_features=38
+21.3s 11 
+21.3s 12 ===== fold 1/5: native model =====
+23.4s 13 Training until validation scores don't improve for 150 rounds
+37.1s 14 [200]	valid_0's auc: 0.951975	valid_0's binary_logloss: 0.253951
+50.2s 15 [400]	valid_0's auc: 0.957957	valid_0's binary_logloss: 0.237847
+61.4s 16 [600]	valid_0's auc: 0.960156	valid_0's binary_logloss: 0.231588
+71.3s 17 [800]	valid_0's auc: 0.961078	valid_0's binary_logloss: 0.228807
+80.6s 18 [1000]	valid_0's auc: 0.961605	valid_0's binary_logloss: 0.227216
+90.0s 19 [1200]	valid_0's auc: 0.962045	valid_0's binary_logloss: 0.225827
+99.1s 20 [1400]	valid_0's auc: 0.962391	valid_0's binary_logloss: 0.224718
+107.7s 21 [1600]	valid_0's auc: 0.962606	valid_0's binary_logloss: 0.224002
+116.3s 22 [1800]	valid_0's auc: 0.962769	valid_0's binary_logloss: 0.223472
+124.8s 23 [2000]	valid_0's auc: 0.962893	valid_0's binary_logloss: 0.223039
+133.3s 24 [2200]	valid_0's auc: 0.963004	valid_0's binary_logloss: 0.222662
+141.8s 25 [2400]	valid_0's auc: 0.96309	valid_0's binary_logloss: 0.222359
+150.1s 26 [2600]	valid_0's auc: 0.963144	valid_0's binary_logloss: 0.222149
+158.5s 27 [2800]	valid_0's auc: 0.963222	valid_0's binary_logloss: 0.221896
+166.7s 28 [3000]	valid_0's auc: 0.963267	valid_0's binary_logloss: 0.221725
+166.7s 29 Did not meet early stopping. Best iteration is:
+166.7s 30 [2990]	valid_0's auc: 0.963269	valid_0's binary_logloss: 0.22172
+205.1s 31 ===== fold 1/5: semantic imputation =====
+205.4s 32 fitting imputer: daily_screen_time_hours
+215.0s 33 fitting imputer: weekend_screen_time
+224.3s 34 fitting imputer: social_media_hours
+233.7s 35 fitting imputer: gaming_hours
+243.1s 36 fitting imputer: work_study_hours
+263.9s 37 ===== fold 1/5: semantic model =====
+266.6s 38 Training until validation scores don't improve for 150 rounds
+286.1s 39 [200]	valid_0's auc: 0.952993	valid_0's binary_logloss: 0.250744
+304.7s 40 [400]	valid_0's auc: 0.959114	valid_0's binary_logloss: 0.234468
+319.8s 41 [600]	valid_0's auc: 0.96089	valid_0's binary_logloss: 0.229365
+333.2s 42 [800]	valid_0's auc: 0.961649	valid_0's binary_logloss: 0.227083
+346.3s 43 [1000]	valid_0's auc: 0.962207	valid_0's binary_logloss: 0.22541
+358.9s 44 [1200]	valid_0's auc: 0.962554	valid_0's binary_logloss: 0.224331
+371.7s 45 [1400]	valid_0's auc: 0.962878	valid_0's binary_logloss: 0.223307
+384.3s 46 [1600]	valid_0's auc: 0.963114	valid_0's binary_logloss: 0.222543
+396.4s 47 [1800]	valid_0's auc: 0.963305	valid_0's binary_logloss: 0.22192
+408.3s 48 [2000]	valid_0's auc: 0.963426	valid_0's binary_logloss: 0.2215
+419.9s 49 [2200]	valid_0's auc: 0.963503	valid_0's binary_logloss: 0.221224
+431.9s 50 [2400]	valid_0's auc: 0.96358	valid_0's binary_logloss: 0.220948
+443.6s 51 [2600]	valid_0's auc: 0.963632	valid_0's binary_logloss: 0.220755
+455.4s 52 [2800]	valid_0's auc: 0.963683	valid_0's binary_logloss: 0.220566
+467.4s 53 [3000]	valid_0's auc: 0.963712	valid_0's binary_logloss: 0.220446
+467.4s 54 Did not meet early stopping. Best iteration is:
+467.4s 55 [2992]	valid_0's auc: 0.963713	valid_0's binary_logloss: 0.220445
+506.2s 56 fold 1: native_auc=0.9632694, semantic_auc=0.9637132
+506.6s 57 
+506.6s 58 ===== fold 2/5: native model =====
+508.6s 59 Training until validation scores don't improve for 150 rounds
+523.0s 60 [200]	valid_0's auc: 0.953258	valid_0's binary_logloss: 0.251007
+537.0s 61 [400]	valid_0's auc: 0.959248	valid_0's binary_logloss: 0.234656
+548.4s 62 [600]	valid_0's auc: 0.961307	valid_0's binary_logloss: 0.228751
+558.8s 63 [800]	valid_0's auc: 0.962451	valid_0's binary_logloss: 0.225319
+568.6s 64 [1000]	valid_0's auc: 0.96298	valid_0's binary_logloss: 0.223662
+578.3s 65 [1200]	valid_0's auc: 0.963237	valid_0's binary_logloss: 0.222798
+587.9s 66 [1400]	valid_0's auc: 0.96353	valid_0's binary_logloss: 0.221834
+597.2s 67 [1600]	valid_0's auc: 0.963838	valid_0's binary_logloss: 0.220822
+606.3s 68 [1800]	valid_0's auc: 0.963988	valid_0's binary_logloss: 0.220307
+615.4s 69 [2000]	valid_0's auc: 0.964144	valid_0's binary_logloss: 0.219765
+624.1s 70 [2200]	valid_0's auc: 0.964278	valid_0's binary_logloss: 0.219294
+632.9s 71 [2400]	valid_0's auc: 0.964372	valid_0's binary_logloss: 0.218945
+641.4s 72 [2600]	valid_0's auc: 0.964432	valid_0's binary_logloss: 0.2187
+650.1s 73 [2800]	valid_0's auc: 0.964476	valid_0's binary_logloss: 0.218506
+658.7s 74 [3000]	valid_0's auc: 0.964521	valid_0's binary_logloss: 0.218325
+658.7s 75 Did not meet early stopping. Best iteration is:
+658.7s 76 [2996]	valid_0's auc: 0.964522	valid_0's binary_logloss: 0.218324
+698.4s 77 ===== fold 2/5: semantic imputation =====
+698.7s 78 fitting imputer: daily_screen_time_hours
+708.1s 79 fitting imputer: weekend_screen_time
+717.1s 80 fitting imputer: social_media_hours
+726.6s 81 fitting imputer: gaming_hours
+736.1s 82 fitting imputer: work_study_hours
+757.2s 83 ===== fold 2/5: semantic model =====
+759.9s 84 Training until validation scores don't improve for 150 rounds
+779.2s 85 [200]	valid_0's auc: 0.954571	valid_0's binary_logloss: 0.247082
+797.5s 86 [400]	valid_0's auc: 0.960133	valid_0's binary_logloss: 0.231992
+812.8s 87 [600]	valid_0's auc: 0.962273	valid_0's binary_logloss: 0.225848
+826.3s 88 [800]	valid_0's auc: 0.963116	valid_0's binary_logloss: 0.223275
+839.3s 89 [1000]	valid_0's auc: 0.963641	valid_0's binary_logloss: 0.221649
+852.1s 90 [1200]	valid_0's auc: 0.963933	valid_0's binary_logloss: 0.22069
+864.6s 91 [1400]	valid_0's auc: 0.964268	valid_0's binary_logloss: 0.219577
+876.5s 92 [1600]	valid_0's auc: 0.964453	valid_0's binary_logloss: 0.218955
+888.7s 93 [1800]	valid_0's auc: 0.964632	valid_0's binary_logloss: 0.218341
+900.4s 94 [2000]	valid_0's auc: 0.964774	valid_0's binary_logloss: 0.217842
+911.9s 95 [2200]	valid_0's auc: 0.964862	valid_0's binary_logloss: 0.217513
+923.1s 96 [2400]	valid_0's auc: 0.964948	valid_0's binary_logloss: 0.217185
+934.9s 97 [2600]	valid_0's auc: 0.965014	valid_0's binary_logloss: 0.216924
+946.3s 98 [2800]	valid_0's auc: 0.965051	valid_0's binary_logloss: 0.216763
+957.6s 99 [3000]	valid_0's auc: 0.965075	valid_0's binary_logloss: 0.216645
+957.6s 100 Did not meet early stopping. Best iteration is:
+957.6s 101 [3000]	valid_0's auc: 0.965075	valid_0's binary_logloss: 0.216645
+996.9s 102 fold 2: native_auc=0.9645217, semantic_auc=0.9650750
+997.4s 103 
+997.4s 104 ===== fold 3/5: native model =====
+999.4s 105 Training until validation scores don't improve for 150 rounds
+1012.8s 106 [200]	valid_0's auc: 0.9534	valid_0's binary_logloss: 0.250794
+1025.3s 107 [400]	valid_0's auc: 0.959366	valid_0's binary_logloss: 0.234483
+1036.1s 108 [600]	valid_0's auc: 0.961442	valid_0's binary_logloss: 0.228464
+1045.8s 109 [800]	valid_0's auc: 0.962297	valid_0's binary_logloss: 0.225855
+1055.4s 110 [1000]	valid_0's auc: 0.962867	valid_0's binary_logloss: 0.224081
+1064.6s 111 [1200]	valid_0's auc: 0.963338	valid_0's binary_logloss: 0.222558
+1073.6s 112 [1400]	valid_0's auc: 0.963663	valid_0's binary_logloss: 0.221515
+1082.3s 113 [1600]	valid_0's auc: 0.963983	valid_0's binary_logloss: 0.220458
+1091.0s 114 [1800]	valid_0's auc: 0.964171	valid_0's binary_logloss: 0.219818
+1099.7s 115 [2000]	valid_0's auc: 0.964323	valid_0's binary_logloss: 0.219288
+1108.3s 116 [2200]	valid_0's auc: 0.964452	valid_0's binary_logloss: 0.218819
+1116.9s 117 [2400]	valid_0's auc: 0.964524	valid_0's binary_logloss: 0.218539
+1125.5s 118 [2600]	valid_0's auc: 0.964627	valid_0's binary_logloss: 0.218171
+1134.0s 119 [2800]	valid_0's auc: 0.964706	valid_0's binary_logloss: 0.217865
+1142.5s 120 [3000]	valid_0's auc: 0.96472	valid_0's binary_logloss: 0.217773
+1142.5s 121 Did not meet early stopping. Best iteration is:
+1142.5s 122 [2983]	valid_0's auc: 0.964722	valid_0's binary_logloss: 0.217772
+1182.4s 123 ===== fold 3/5: semantic imputation =====
+1182.7s 124 fitting imputer: daily_screen_time_hours
+1192.3s 125 fitting imputer: weekend_screen_time
+1201.3s 126 fitting imputer: social_media_hours
+1210.7s 127 fitting imputer: gaming_hours
+1219.9s 128 fitting imputer: work_study_hours
+1240.8s 129 ===== fold 3/5: semantic model =====
+1243.6s 130 Training until validation scores don't improve for 150 rounds
+1262.4s 131 [200]	valid_0's auc: 0.954706	valid_0's binary_logloss: 0.246757
+1280.2s 132 [400]	valid_0's auc: 0.960408	valid_0's binary_logloss: 0.231249
+1295.3s 133 [600]	valid_0's auc: 0.962272	valid_0's binary_logloss: 0.225804
+1308.7s 134 [800]	valid_0's auc: 0.96314	valid_0's binary_logloss: 0.223195
+1321.7s 135 [1000]	valid_0's auc: 0.963677	valid_0's binary_logloss: 0.221528
+1334.2s 136 [1200]	valid_0's auc: 0.964104	valid_0's binary_logloss: 0.220156
+1346.4s 137 [1400]	valid_0's auc: 0.964338	valid_0's binary_logloss: 0.219379
+1358.6s 138 [1600]	valid_0's auc: 0.964597	valid_0's binary_logloss: 0.218515
+1370.7s 139 [1800]	valid_0's auc: 0.964716	valid_0's binary_logloss: 0.218083
+1382.5s 140 [2000]	valid_0's auc: 0.964835	valid_0's binary_logloss: 0.217655
+1394.1s 141 [2200]	valid_0's auc: 0.964918	valid_0's binary_logloss: 0.21735
+1405.9s 142 [2400]	valid_0's auc: 0.964994	valid_0's binary_logloss: 0.217057
+1417.6s 143 [2600]	valid_0's auc: 0.965085	valid_0's binary_logloss: 0.216727
+1429.3s 144 [2800]	valid_0's auc: 0.965145	valid_0's binary_logloss: 0.216484
+1441.2s 145 [3000]	valid_0's auc: 0.965227	valid_0's binary_logloss: 0.216184
+1441.2s 146 Did not meet early stopping. Best iteration is:
+1441.2s 147 [2996]	valid_0's auc: 0.965227	valid_0's binary_logloss: 0.216183
+1480.0s 148 fold 3: native_auc=0.9647217, semantic_auc=0.9652274
+1480.4s 149 
+1480.4s 150 ===== fold 4/5: native model =====
+1482.5s 151 Training until validation scores don't improve for 150 rounds
+1495.8s 152 [200]	valid_0's auc: 0.952482	valid_0's binary_logloss: 0.25276
+1508.3s 153 [400]	valid_0's auc: 0.95853	valid_0's binary_logloss: 0.236429
+1519.1s 154 [600]	valid_0's auc: 0.960497	valid_0's binary_logloss: 0.230795
+1528.7s 155 [800]	valid_0's auc: 0.961445	valid_0's binary_logloss: 0.227981
+1538.0s 156 [1000]	valid_0's auc: 0.962065	valid_0's binary_logloss: 0.226113
+1547.1s 157 [1200]	valid_0's auc: 0.962389	valid_0's binary_logloss: 0.225095
+1555.9s 158 [1400]	valid_0's auc: 0.962791	valid_0's binary_logloss: 0.223836
+1564.5s 159 [1600]	valid_0's auc: 0.963054	valid_0's binary_logloss: 0.222976
+1573.1s 160 [1800]	valid_0's auc: 0.963247	valid_0's binary_logloss: 0.222326
+1581.5s 161 [2000]	valid_0's auc: 0.963387	valid_0's binary_logloss: 0.221861
+1589.9s 162 [2200]	valid_0's auc: 0.963501	valid_0's binary_logloss: 0.22146
+1598.3s 163 [2400]	valid_0's auc: 0.963613	valid_0's binary_logloss: 0.221073
+1606.9s 164 [2600]	valid_0's auc: 0.963728	valid_0's binary_logloss: 0.220675
+1615.8s 165 [2800]	valid_0's auc: 0.963805	valid_0's binary_logloss: 0.220405
+1624.2s 166 [3000]	valid_0's auc: 0.963869	valid_0's binary_logloss: 0.220169
+1624.2s 167 Did not meet early stopping. Best iteration is:
+1624.2s 168 [3000]	valid_0's auc: 0.963869	valid_0's binary_logloss: 0.220169
+1665.0s 169 ===== fold 4/5: semantic imputation =====
+1665.3s 170 fitting imputer: daily_screen_time_hours
+1674.7s 171 fitting imputer: weekend_screen_time
+1683.6s 172 fitting imputer: social_media_hours
+1692.9s 173 fitting imputer: gaming_hours
+1702.4s 174 fitting imputer: work_study_hours
+1723.1s 175 ===== fold 4/5: semantic model =====
+1725.8s 176 Training until validation scores don't improve for 150 rounds
+1745.0s 177 [200]	valid_0's auc: 0.95371	valid_0's binary_logloss: 0.248996
+1763.0s 178 [400]	valid_0's auc: 0.959428	valid_0's binary_logloss: 0.233697
+1778.3s 179 [600]	valid_0's auc: 0.961265	valid_0's binary_logloss: 0.228479
+1792.0s 180 [800]	valid_0's auc: 0.962187	valid_0's binary_logloss: 0.225748
+1804.8s 181 [1000]	valid_0's auc: 0.962873	valid_0's binary_logloss: 0.223686
+1817.4s 182 [1200]	valid_0's auc: 0.963305	valid_0's binary_logloss: 0.22235
+1829.8s 183 [1400]	valid_0's auc: 0.963691	valid_0's binary_logloss: 0.22111
+1841.5s 184 [1600]	valid_0's auc: 0.963827	valid_0's binary_logloss: 0.220648
+1853.9s 185 [1800]	valid_0's auc: 0.963952	valid_0's binary_logloss: 0.220222
+1865.8s 186 [2000]	valid_0's auc: 0.964049	valid_0's binary_logloss: 0.219881
+1877.6s 187 [2200]	valid_0's auc: 0.964124	valid_0's binary_logloss: 0.219579
+1889.3s 188 [2400]	valid_0's auc: 0.96422	valid_0's binary_logloss: 0.219232
+1900.9s 189 [2600]	valid_0's auc: 0.964279	valid_0's binary_logloss: 0.219013
+1912.8s 190 [2800]	valid_0's auc: 0.964343	valid_0's binary_logloss: 0.218777
+1924.1s 191 [3000]	valid_0's auc: 0.964384	valid_0's binary_logloss: 0.21861
+1924.1s 192 Did not meet early stopping. Best iteration is:
+1924.1s 193 [3000]	valid_0's auc: 0.964384	valid_0's binary_logloss: 0.21861
+1965.3s 194 fold 4: native_auc=0.9638686, semantic_auc=0.9643842
+1965.7s 195 
+1965.7s 196 ===== fold 5/5: native model =====
+1967.8s 197 Training until validation scores don't improve for 150 rounds
+1982.3s 198 [200]	valid_0's auc: 0.951862	valid_0's binary_logloss: 0.253865
+1995.5s 199 [400]	valid_0's auc: 0.957699	valid_0's binary_logloss: 0.238228
+2007.0s 200 [600]	valid_0's auc: 0.959835	valid_0's binary_logloss: 0.232249
+2017.2s 201 [800]	valid_0's auc: 0.960708	valid_0's binary_logloss: 0.229691
+2026.9s 202 [1000]	valid_0's auc: 0.961275	valid_0's binary_logloss: 0.227988
+2036.4s 203 [1200]	valid_0's auc: 0.961754	valid_0's binary_logloss: 0.226529
+2045.7s 204 [1400]	valid_0's auc: 0.962066	valid_0's binary_logloss: 0.225564
+2054.8s 205 [1600]	valid_0's auc: 0.962285	valid_0's binary_logloss: 0.224871
+2063.8s 206 [1800]	valid_0's auc: 0.962474	valid_0's binary_logloss: 0.224267
+2072.6s 207 [2000]	valid_0's auc: 0.962599	valid_0's binary_logloss: 0.223839
+2081.3s 208 [2200]	valid_0's auc: 0.962722	valid_0's binary_logloss: 0.223438
+2090.6s 209 [2400]	valid_0's auc: 0.962785	valid_0's binary_logloss: 0.223209
+2099.4s 210 [2600]	valid_0's auc: 0.962846	valid_0's binary_logloss: 0.222992
+2108.1s 211 [2800]	valid_0's auc: 0.962916	valid_0's binary_logloss: 0.222756
+2116.7s 212 [3000]	valid_0's auc: 0.96296	valid_0's binary_logloss: 0.222583
+2116.7s 213 Did not meet early stopping. Best iteration is:
+2116.7s 214 [2998]	valid_0's auc: 0.962962	valid_0's binary_logloss: 0.22258
+2157.9s 215 ===== fold 5/5: semantic imputation =====
+2158.3s 216 fitting imputer: daily_screen_time_hours
+2167.9s 217 fitting imputer: weekend_screen_time
+2177.1s 218 fitting imputer: social_media_hours
+2186.6s 219 fitting imputer: gaming_hours
+2196.0s 220 fitting imputer: work_study_hours
+2217.5s 221 ===== fold 5/5: semantic model =====
+2220.2s 222 Training until validation scores don't improve for 150 rounds
+2239.9s 223 [200]	valid_0's auc: 0.953006	valid_0's binary_logloss: 0.250437
+2258.3s 224 [400]	valid_0's auc: 0.958662	valid_0's binary_logloss: 0.235386
+2273.6s 225 [600]	valid_0's auc: 0.960611	valid_0's binary_logloss: 0.229921
+2287.0s 226 [800]	valid_0's auc: 0.961485	valid_0's binary_logloss: 0.227372
+2300.1s 227 [1000]	valid_0's auc: 0.961978	valid_0's binary_logloss: 0.225894
+2313.0s 228 [1200]	valid_0's auc: 0.962449	valid_0's binary_logloss: 0.224453
+2325.6s 229 [1400]	valid_0's auc: 0.962721	valid_0's binary_logloss: 0.223596
+2338.0s 230 [1600]	valid_0's auc: 0.962911	valid_0's binary_logloss: 0.222983
+2350.3s 231 [1800]	valid_0's auc: 0.963103	valid_0's binary_logloss: 0.222375
+2362.5s 232 [2000]	valid_0's auc: 0.963234	valid_0's binary_logloss: 0.22194
+2374.2s 233 [2200]	valid_0's auc: 0.963333	valid_0's binary_logloss: 0.22159
+2386.2s 234 [2400]	valid_0's auc: 0.963433	valid_0's binary_logloss: 0.221248
+2398.4s 235 [2600]	valid_0's auc: 0.963509	valid_0's binary_logloss: 0.220982
+2409.9s 236 [2800]	valid_0's auc: 0.963565	valid_0's binary_logloss: 0.220786
+2421.5s 237 [3000]	valid_0's auc: 0.963603	valid_0's binary_logloss: 0.220648
+2421.5s 238 Did not meet early stopping. Best iteration is:
+2421.5s 239 [2993]	valid_0's auc: 0.963605	valid_0's binary_logloss: 0.220643
+2460.5s 240 fold 5: native_auc=0.9629617, semantic_auc=0.9636050
+2473.3s 241 
+2473.3s 242 V1 complete
+2473.3s 243 {
+2473.3s 244 "version": "v1",
+2473.3s 245 "native_oof_auc": 0.9638653644060255,
+2473.3s 246 "semantic_oof_auc": 0.9643986073007649,
+2473.3s 247 "blend_oof_auc": 0.9645146323956051,
+2473.3s 248 "native_weight": 0.30000000000000004,
+2473.3s 249 "semantic_weight": 0.7,
+2473.3s 250 "folds": 5,
+2473.3s 251 "seed": 2026,
+2473.3s 252 "elapsed_minutes": 40.936791682243346,
+2473.3s 253 "submission_path": "/kaggle/working/submission.csv"
+2473.3s 254 }
+2477.4s 255 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+2477.4s 256 cells[i][c] = re.sub('\\\\\|', '|', cell)
+2477.6s 257 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+2477.6s 258 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+2478.6s 259 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+2479.0s 260 [NbConvertApp] Writing 45966 bytes to __notebook__.ipynb
+2482.4s 261 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+2483.6s 262 [NbConvertApp] Writing 396143 bytes to __results__.html

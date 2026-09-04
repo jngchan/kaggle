@@ -1,0 +1,220 @@
+nohup: ignoring input
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.951975	valid_0's binary_logloss: 0.253951
+[400]	valid_0's auc: 0.957957	valid_0's binary_logloss: 0.237847
+[600]	valid_0's auc: 0.960156	valid_0's binary_logloss: 0.231588
+[800]	valid_0's auc: 0.961078	valid_0's binary_logloss: 0.228807
+[1000]	valid_0's auc: 0.961605	valid_0's binary_logloss: 0.227216
+[1200]	valid_0's auc: 0.962045	valid_0's binary_logloss: 0.225827
+[1400]	valid_0's auc: 0.962391	valid_0's binary_logloss: 0.224718
+[1600]	valid_0's auc: 0.962606	valid_0's binary_logloss: 0.224002
+[1800]	valid_0's auc: 0.962769	valid_0's binary_logloss: 0.223472
+[2000]	valid_0's auc: 0.962893	valid_0's binary_logloss: 0.223039
+[2200]	valid_0's auc: 0.963004	valid_0's binary_logloss: 0.222662
+[2400]	valid_0's auc: 0.96309	valid_0's binary_logloss: 0.222359
+[2600]	valid_0's auc: 0.963144	valid_0's binary_logloss: 0.222149
+[2800]	valid_0's auc: 0.963222	valid_0's binary_logloss: 0.221896
+[3000]	valid_0's auc: 0.963267	valid_0's binary_logloss: 0.221725
+Did not meet early stopping. Best iteration is:
+[2990]	valid_0's auc: 0.963269	valid_0's binary_logloss: 0.22172
+lightgbm fold 1/5: AUC=0.9632694
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.953258	valid_0's binary_logloss: 0.251007
+[400]	valid_0's auc: 0.959248	valid_0's binary_logloss: 0.234656
+[600]	valid_0's auc: 0.961307	valid_0's binary_logloss: 0.228751
+[800]	valid_0's auc: 0.962451	valid_0's binary_logloss: 0.225319
+[1000]	valid_0's auc: 0.96298	valid_0's binary_logloss: 0.223662
+[1200]	valid_0's auc: 0.963237	valid_0's binary_logloss: 0.222798
+[1400]	valid_0's auc: 0.96353	valid_0's binary_logloss: 0.221834
+[1600]	valid_0's auc: 0.963838	valid_0's binary_logloss: 0.220822
+[1800]	valid_0's auc: 0.963988	valid_0's binary_logloss: 0.220307
+[2000]	valid_0's auc: 0.964144	valid_0's binary_logloss: 0.219765
+[2200]	valid_0's auc: 0.964278	valid_0's binary_logloss: 0.219294
+[2400]	valid_0's auc: 0.964372	valid_0's binary_logloss: 0.218945
+[2600]	valid_0's auc: 0.964432	valid_0's binary_logloss: 0.2187
+[2800]	valid_0's auc: 0.964476	valid_0's binary_logloss: 0.218506
+[3000]	valid_0's auc: 0.964521	valid_0's binary_logloss: 0.218325
+Did not meet early stopping. Best iteration is:
+[2996]	valid_0's auc: 0.964522	valid_0's binary_logloss: 0.218324
+lightgbm fold 2/5: AUC=0.9645217
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.9534	valid_0's binary_logloss: 0.250794
+[400]	valid_0's auc: 0.959366	valid_0's binary_logloss: 0.234483
+[600]	valid_0's auc: 0.961442	valid_0's binary_logloss: 0.228464
+[800]	valid_0's auc: 0.962297	valid_0's binary_logloss: 0.225855
+[1000]	valid_0's auc: 0.962867	valid_0's binary_logloss: 0.224081
+[1200]	valid_0's auc: 0.963338	valid_0's binary_logloss: 0.222558
+[1400]	valid_0's auc: 0.963663	valid_0's binary_logloss: 0.221515
+[1600]	valid_0's auc: 0.963983	valid_0's binary_logloss: 0.220458
+[1800]	valid_0's auc: 0.964171	valid_0's binary_logloss: 0.219818
+[2000]	valid_0's auc: 0.964323	valid_0's binary_logloss: 0.219288
+[2200]	valid_0's auc: 0.964452	valid_0's binary_logloss: 0.218819
+[2400]	valid_0's auc: 0.964524	valid_0's binary_logloss: 0.218539
+[2600]	valid_0's auc: 0.964627	valid_0's binary_logloss: 0.218171
+[2800]	valid_0's auc: 0.964706	valid_0's binary_logloss: 0.217865
+[3000]	valid_0's auc: 0.96472	valid_0's binary_logloss: 0.217773
+Did not meet early stopping. Best iteration is:
+[2983]	valid_0's auc: 0.964722	valid_0's binary_logloss: 0.217772
+lightgbm fold 3/5: AUC=0.9647217
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.952482	valid_0's binary_logloss: 0.25276
+[400]	valid_0's auc: 0.95853	valid_0's binary_logloss: 0.236429
+[600]	valid_0's auc: 0.960497	valid_0's binary_logloss: 0.230795
+[800]	valid_0's auc: 0.961445	valid_0's binary_logloss: 0.227981
+[1000]	valid_0's auc: 0.962065	valid_0's binary_logloss: 0.226113
+[1200]	valid_0's auc: 0.962389	valid_0's binary_logloss: 0.225095
+[1400]	valid_0's auc: 0.962791	valid_0's binary_logloss: 0.223836
+[1600]	valid_0's auc: 0.963054	valid_0's binary_logloss: 0.222976
+[1800]	valid_0's auc: 0.963247	valid_0's binary_logloss: 0.222326
+[2000]	valid_0's auc: 0.963387	valid_0's binary_logloss: 0.221861
+[2200]	valid_0's auc: 0.963501	valid_0's binary_logloss: 0.22146
+[2400]	valid_0's auc: 0.963613	valid_0's binary_logloss: 0.221073
+[2600]	valid_0's auc: 0.963728	valid_0's binary_logloss: 0.220674
+[2800]	valid_0's auc: 0.963806	valid_0's binary_logloss: 0.220404
+[3000]	valid_0's auc: 0.963869	valid_0's binary_logloss: 0.220169
+Did not meet early stopping. Best iteration is:
+[3000]	valid_0's auc: 0.963869	valid_0's binary_logloss: 0.220169
+lightgbm fold 4/5: AUC=0.9638687
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.951862	valid_0's binary_logloss: 0.253865
+[400]	valid_0's auc: 0.957699	valid_0's binary_logloss: 0.238228
+[600]	valid_0's auc: 0.959835	valid_0's binary_logloss: 0.232249
+[800]	valid_0's auc: 0.960708	valid_0's binary_logloss: 0.229691
+[1000]	valid_0's auc: 0.961275	valid_0's binary_logloss: 0.227988
+[1200]	valid_0's auc: 0.961754	valid_0's binary_logloss: 0.226529
+[1400]	valid_0's auc: 0.962066	valid_0's binary_logloss: 0.225564
+[1600]	valid_0's auc: 0.962285	valid_0's binary_logloss: 0.224871
+[1800]	valid_0's auc: 0.962474	valid_0's binary_logloss: 0.224267
+[2000]	valid_0's auc: 0.962599	valid_0's binary_logloss: 0.223839
+[2200]	valid_0's auc: 0.962722	valid_0's binary_logloss: 0.223438
+[2400]	valid_0's auc: 0.962785	valid_0's binary_logloss: 0.223209
+[2600]	valid_0's auc: 0.962846	valid_0's binary_logloss: 0.222992
+[2800]	valid_0's auc: 0.962916	valid_0's binary_logloss: 0.222756
+[3000]	valid_0's auc: 0.96296	valid_0's binary_logloss: 0.222583
+Did not meet early stopping. Best iteration is:
+[2998]	valid_0's auc: 0.962962	valid_0's binary_logloss: 0.22258
+lightgbm fold 5/5: AUC=0.9629617
+{
+  "model": "lightgbm",
+  "oof_auc": 0.9638653908639585,
+  "fold_auc_mean": 0.9638686502416854,
+  "fold_auc_std": 0.00076418833976499,
+  "elapsed_minutes": 12.854294649759929,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count": 46
+}
+0:	test: 0.9109493	best: 0.9109493 (0)	total: 214ms	remaining: 8m 55s
+200:	test: 0.9425976	best: 0.9425976 (200)	total: 30.3s	remaining: 5m 46s
+400:	test: 0.9491649	best: 0.9491649 (400)	total: 1m	remaining: 5m 18s
+600:	test: 0.9532430	best: 0.9532430 (600)	total: 1m 31s	remaining: 4m 48s
+800:	test: 0.9558397	best: 0.9558397 (800)	total: 2m 1s	remaining: 4m 18s
+1000:	test: 0.9573881	best: 0.9573881 (1000)	total: 2m 32s	remaining: 3m 49s
+1200:	test: 0.9584520	best: 0.9584520 (1200)	total: 3m 3s	remaining: 3m 18s
+1400:	test: 0.9593061	best: 0.9593069 (1399)	total: 3m 34s	remaining: 2m 48s
+1600:	test: 0.9599234	best: 0.9599234 (1600)	total: 4m 5s	remaining: 2m 17s
+1800:	test: 0.9604399	best: 0.9604399 (1800)	total: 4m 36s	remaining: 1m 47s
+2000:	test: 0.9608041	best: 0.9608041 (2000)	total: 5m 7s	remaining: 1m 16s
+2200:	test: 0.9611387	best: 0.9611387 (2200)	total: 5m 39s	remaining: 46.1s
+2400:	test: 0.9614616	best: 0.9614616 (2400)	total: 6m 11s	remaining: 15.3s
+2499:	test: 0.9616085	best: 0.9616085 (2499)	total: 6m 26s	remaining: 0us
+
+bestTest = 0.961608463
+bestIteration = 2499
+
+catboost fold 1/5: AUC=0.9616085
+0:	test: 0.9116437	best: 0.9116437 (0)	total: 186ms	remaining: 7m 45s
+200:	test: 0.9434235	best: 0.9434235 (200)	total: 31.2s	remaining: 5m 57s
+400:	test: 0.9501855	best: 0.9501855 (400)	total: 1m 1s	remaining: 5m 23s
+600:	test: 0.9545865	best: 0.9545865 (600)	total: 1m 31s	remaining: 4m 49s
+800:	test: 0.9570864	best: 0.9570864 (800)	total: 2m 1s	remaining: 4m 18s
+1000:	test: 0.9586708	best: 0.9586708 (1000)	total: 2m 31s	remaining: 3m 47s
+1200:	test: 0.9598180	best: 0.9598180 (1200)	total: 3m 1s	remaining: 3m 16s
+1400:	test: 0.9606625	best: 0.9606625 (1400)	total: 3m 31s	remaining: 2m 45s
+1600:	test: 0.9614102	best: 0.9614102 (1600)	total: 4m 1s	remaining: 2m 15s
+1800:	test: 0.9620101	best: 0.9620101 (1800)	total: 4m 31s	remaining: 1m 45s
+2000:	test: 0.9624527	best: 0.9624527 (2000)	total: 5m 2s	remaining: 1m 15s
+2200:	test: 0.9627583	best: 0.9627597 (2197)	total: 5m 33s	remaining: 45.3s
+2400:	test: 0.9630842	best: 0.9630842 (2400)	total: 6m 4s	remaining: 15s
+2499:	test: 0.9632034	best: 0.9632034 (2499)	total: 6m 19s	remaining: 0us
+
+bestTest = 0.9632034388
+bestIteration = 2499
+
+catboost fold 2/5: AUC=0.9632034
+0:	test: 0.9136669	best: 0.9136669 (0)	total: 171ms	remaining: 7m 6s
+200:	test: 0.9441562	best: 0.9441562 (200)	total: 30.4s	remaining: 5m 47s
+400:	test: 0.9505480	best: 0.9505480 (400)	total: 1m	remaining: 5m 17s
+600:	test: 0.9546698	best: 0.9546698 (600)	total: 1m 30s	remaining: 4m 46s
+800:	test: 0.9571023	best: 0.9571023 (800)	total: 2m	remaining: 4m 15s
+1000:	test: 0.9587185	best: 0.9587185 (1000)	total: 2m 29s	remaining: 3m 43s
+1200:	test: 0.9598542	best: 0.9598542 (1200)	total: 2m 56s	remaining: 3m 10s
+1400:	test: 0.9607251	best: 0.9607251 (1400)	total: 3m 24s	remaining: 2m 40s
+1600:	test: 0.9613935	best: 0.9613935 (1600)	total: 3m 54s	remaining: 2m 11s
+1800:	test: 0.9618914	best: 0.9618914 (1798)	total: 4m 26s	remaining: 1m 43s
+2000:	test: 0.9623262	best: 0.9623265 (1999)	total: 4m 56s	remaining: 1m 13s
+2200:	test: 0.9626531	best: 0.9626531 (2200)	total: 5m 26s	remaining: 44.4s
+2400:	test: 0.9629316	best: 0.9629320 (2397)	total: 5m 57s	remaining: 14.7s
+2499:	test: 0.9630701	best: 0.9630701 (2499)	total: 6m 12s	remaining: 0us
+
+bestTest = 0.9630701342
+bestIteration = 2499
+
+catboost fold 3/5: AUC=0.9630701
+0:	test: 0.9090464	best: 0.9090464 (0)	total: 170ms	remaining: 7m 4s
+200:	test: 0.9432882	best: 0.9432882 (200)	total: 30.4s	remaining: 5m 47s
+400:	test: 0.9498362	best: 0.9498362 (400)	total: 59.9s	remaining: 5m 13s
+600:	test: 0.9540049	best: 0.9540049 (600)	total: 1m 28s	remaining: 4m 41s
+800:	test: 0.9563952	best: 0.9563952 (800)	total: 1m 58s	remaining: 4m 10s
+1000:	test: 0.9581113	best: 0.9581113 (1000)	total: 2m 27s	remaining: 3m 40s
+1200:	test: 0.9592622	best: 0.9592622 (1200)	total: 2m 56s	remaining: 3m 11s
+1400:	test: 0.9601415	best: 0.9601415 (1400)	total: 3m 26s	remaining: 2m 42s
+1600:	test: 0.9608951	best: 0.9608951 (1600)	total: 3m 55s	remaining: 2m 12s
+1800:	test: 0.9613465	best: 0.9613465 (1800)	total: 4m 25s	remaining: 1m 43s
+2000:	test: 0.9617467	best: 0.9617467 (2000)	total: 4m 56s	remaining: 1m 13s
+2200:	test: 0.9621050	best: 0.9621050 (2200)	total: 5m 27s	remaining: 44.5s
+2400:	test: 0.9623324	best: 0.9623324 (2400)	total: 5m 57s	remaining: 14.7s
+2499:	test: 0.9624542	best: 0.9624542 (2499)	total: 6m 12s	remaining: 0us
+
+bestTest = 0.962454187
+bestIteration = 2499
+
+catboost fold 4/5: AUC=0.9624542
+0:	test: 0.9100615	best: 0.9100615 (0)	total: 176ms	remaining: 7m 20s
+200:	test: 0.9426497	best: 0.9426497 (200)	total: 30.1s	remaining: 5m 44s
+400:	test: 0.9491395	best: 0.9491395 (400)	total: 59.6s	remaining: 5m 11s
+600:	test: 0.9532939	best: 0.9532939 (600)	total: 1m 28s	remaining: 4m 40s
+800:	test: 0.9556013	best: 0.9556013 (800)	total: 1m 57s	remaining: 4m 9s
+1000:	test: 0.9572178	best: 0.9572178 (1000)	total: 2m 26s	remaining: 3m 39s
+1200:	test: 0.9583853	best: 0.9583853 (1200)	total: 2m 56s	remaining: 3m 10s
+1400:	test: 0.9592657	best: 0.9592657 (1400)	total: 3m 26s	remaining: 2m 41s
+1600:	test: 0.9598634	best: 0.9598634 (1600)	total: 3m 56s	remaining: 2m 12s
+1800:	test: 0.9603600	best: 0.9603600 (1800)	total: 4m 26s	remaining: 1m 43s
+2000:	test: 0.9607951	best: 0.9607951 (2000)	total: 4m 56s	remaining: 1m 13s
+2200:	test: 0.9610955	best: 0.9610955 (2200)	total: 5m 26s	remaining: 44.4s
+2400:	test: 0.9614057	best: 0.9614058 (2399)	total: 5m 56s	remaining: 14.7s
+2499:	test: 0.9615388	best: 0.9615388 (2499)	total: 6m 11s	remaining: 0us
+
+bestTest = 0.9615387971
+bestIteration = 2499
+
+catboost fold 5/5: AUC=0.9615388
+{
+  "model": "catboost",
+  "oof_auc": 0.9623740973339148,
+  "fold_auc_mean": 0.9623750040332766,
+  "fold_auc_std": 0.000784634815405762,
+  "elapsed_minutes": 33.102888071537016,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count": 38
+}
+                   candidate             type  oof_auc
+                    lightgbm           single 0.963865
+rank_blend_lightgbm_catboost equal_rank_blend 0.963609
+                    catboost           single 0.962374
+Created /home/wangcj/kaggle/2026.8/submission.csv using lightgbm.

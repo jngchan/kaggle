@@ -1,0 +1,502 @@
+9.2s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.2s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.2s 3 0.00s - to python to disable frozen modules.
+9.2s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.1s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.1s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.1s 7 0.00s - to python to disable frozen modules.
+10.1s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+19.1s 9 Using competition data from: /kaggle/input/competitions/playground-series-s6e8
+23.1s 10 train=691,369, test=296,302, base_features=38, xgb_device=cpu
+23.6s 11 
+23.6s 12 ===== fold 1/5: native LightGBM =====
+25.8s 13 Training until validation scores don't improve for 150 rounds
+40.3s 14 [200]	valid_0's auc: 0.951975	valid_0's binary_logloss: 0.253951
+54.2s 15 [400]	valid_0's auc: 0.957957	valid_0's binary_logloss: 0.237847
+66.2s 16 [600]	valid_0's auc: 0.960156	valid_0's binary_logloss: 0.231588
+76.8s 17 [800]	valid_0's auc: 0.961078	valid_0's binary_logloss: 0.228807
+86.9s 18 [1000]	valid_0's auc: 0.961605	valid_0's binary_logloss: 0.227216
+97.1s 19 [1200]	valid_0's auc: 0.962045	valid_0's binary_logloss: 0.225827
+107.0s 20 [1400]	valid_0's auc: 0.962391	valid_0's binary_logloss: 0.224718
+116.7s 21 [1600]	valid_0's auc: 0.962606	valid_0's binary_logloss: 0.224002
+126.4s 22 [1800]	valid_0's auc: 0.962769	valid_0's binary_logloss: 0.223472
+136.0s 23 [2000]	valid_0's auc: 0.962893	valid_0's binary_logloss: 0.223039
+145.4s 24 [2200]	valid_0's auc: 0.963004	valid_0's binary_logloss: 0.222662
+154.8s 25 [2400]	valid_0's auc: 0.96309	valid_0's binary_logloss: 0.222359
+164.2s 26 [2600]	valid_0's auc: 0.963144	valid_0's binary_logloss: 0.222149
+173.6s 27 [2800]	valid_0's auc: 0.963222	valid_0's binary_logloss: 0.221896
+182.7s 28 [3000]	valid_0's auc: 0.963267	valid_0's binary_logloss: 0.221725
+182.7s 29 Did not meet early stopping. Best iteration is:
+182.7s 30 [2990]	valid_0's auc: 0.963269	valid_0's binary_logloss: 0.22172
+182.8s 31 ===== fold 1/5: semantic imputation =====
+183.2s 32 fitting imputer: daily_screen_time_hours
+193.1s 33 fitting imputer: weekend_screen_time
+202.6s 34 fitting imputer: social_media_hours
+212.4s 35 fitting imputer: gaming_hours
+222.3s 36 fitting imputer: work_study_hours
+244.3s 37 ===== fold 1/5: semantic LightGBM =====
+247.3s 38 Training until validation scores don't improve for 200 rounds
+268.9s 39 [200]	valid_0's auc: 0.952993	valid_0's binary_logloss: 0.250744
+289.2s 40 [400]	valid_0's auc: 0.959114	valid_0's binary_logloss: 0.234468
+306.1s 41 [600]	valid_0's auc: 0.96089	valid_0's binary_logloss: 0.229365
+320.9s 42 [800]	valid_0's auc: 0.961649	valid_0's binary_logloss: 0.227083
+335.3s 43 [1000]	valid_0's auc: 0.962207	valid_0's binary_logloss: 0.22541
+349.6s 44 [1200]	valid_0's auc: 0.962554	valid_0's binary_logloss: 0.224331
+363.8s 45 [1400]	valid_0's auc: 0.962878	valid_0's binary_logloss: 0.223307
+377.7s 46 [1600]	valid_0's auc: 0.963114	valid_0's binary_logloss: 0.222543
+391.3s 47 [1800]	valid_0's auc: 0.963305	valid_0's binary_logloss: 0.22192
+404.7s 48 [2000]	valid_0's auc: 0.963426	valid_0's binary_logloss: 0.2215
+417.9s 49 [2200]	valid_0's auc: 0.963503	valid_0's binary_logloss: 0.221224
+431.2s 50 [2400]	valid_0's auc: 0.96358	valid_0's binary_logloss: 0.220948
+444.5s 51 [2600]	valid_0's auc: 0.963632	valid_0's binary_logloss: 0.220755
+457.8s 52 [2800]	valid_0's auc: 0.963683	valid_0's binary_logloss: 0.220566
+471.1s 53 [3000]	valid_0's auc: 0.963712	valid_0's binary_logloss: 0.220446
+484.1s 54 [3200]	valid_0's auc: 0.963731	valid_0's binary_logloss: 0.220356
+497.1s 55 [3400]	valid_0's auc: 0.963754	valid_0's binary_logloss: 0.220247
+509.9s 56 [3600]	valid_0's auc: 0.963789	valid_0's binary_logloss: 0.220121
+523.0s 57 [3800]	valid_0's auc: 0.963806	valid_0's binary_logloss: 0.220048
+536.1s 58 [4000]	valid_0's auc: 0.963811	valid_0's binary_logloss: 0.220022
+549.1s 59 [4200]	valid_0's auc: 0.963835	valid_0's binary_logloss: 0.219931
+562.0s 60 [4400]	valid_0's auc: 0.96381	valid_0's binary_logloss: 0.219991
+562.0s 61 Early stopping, best iteration is:
+562.0s 62 [4200]	valid_0's auc: 0.963835	valid_0's binary_logloss: 0.219931
+562.2s 63 ===== fold 1/5: baseline XGBoost =====
+567.0s 64 [0]	validation_0-auc:0.93509
+608.1s 65 [200]	validation_0-auc:0.94802
+644.7s 66 [400]	validation_0-auc:0.95620
+681.2s 67 [600]	validation_0-auc:0.96008
+717.1s 68 [800]	validation_0-auc:0.96189
+752.7s 69 [1000]	validation_0-auc:0.96278
+788.4s 70 [1200]	validation_0-auc:0.96331
+824.3s 71 [1400]	validation_0-auc:0.96364
+860.3s 72 [1600]	validation_0-auc:0.96388
+896.1s 73 [1800]	validation_0-auc:0.96405
+931.8s 74 [2000]	validation_0-auc:0.96413
+967.4s 75 [2200]	validation_0-auc:0.96419
+1003.2s 76 [2400]	validation_0-auc:0.96426
+1038.9s 77 [2600]	validation_0-auc:0.96429
+1074.7s 78 [2800]	validation_0-auc:0.96431
+1094.7s 79 [2912]	validation_0-auc:0.96432
+1098.5s 80 ===== fold 1/5: latent-feature XGBoost =====
+1104.2s 81 [0]	validation_0-auc:0.93459
+1152.4s 82 [200]	validation_0-auc:0.94805
+1195.4s 83 [400]	validation_0-auc:0.95674
+1238.3s 84 [600]	validation_0-auc:0.96042
+1280.5s 85 [800]	validation_0-auc:0.96193
+1322.1s 86 [1000]	validation_0-auc:0.96271
+1363.6s 87 [1200]	validation_0-auc:0.96317
+1405.0s 88 [1400]	validation_0-auc:0.96353
+1445.9s 89 [1600]	validation_0-auc:0.96374
+1487.5s 90 [1800]	validation_0-auc:0.96390
+1528.9s 91 [2000]	validation_0-auc:0.96401
+1570.4s 92 [2200]	validation_0-auc:0.96408
+1612.0s 93 [2400]	validation_0-auc:0.96414
+1653.2s 94 [2600]	validation_0-auc:0.96417
+1694.6s 95 [2800]	validation_0-auc:0.96419
+1736.5s 96 [3000]	validation_0-auc:0.96420
+1777.9s 97 [3200]	validation_0-auc:0.96419
+1802.9s 98 [3320]	validation_0-auc:0.96419
+1940.2s 99 fold 1: baseline_xgb=0.9643242, latent_xgb=0.9642138, delta=-0.0001104
+1940.6s 100 
+1940.6s 101 ===== fold 2/5: native LightGBM =====
+1942.7s 102 Training until validation scores don't improve for 150 rounds
+1956.8s 103 [200]	valid_0's auc: 0.953258	valid_0's binary_logloss: 0.251007
+1970.4s 104 [400]	valid_0's auc: 0.959248	valid_0's binary_logloss: 0.234656
+1982.2s 105 [600]	valid_0's auc: 0.961307	valid_0's binary_logloss: 0.228751
+1992.9s 106 [800]	valid_0's auc: 0.962451	valid_0's binary_logloss: 0.225319
+2002.9s 107 [1000]	valid_0's auc: 0.96298	valid_0's binary_logloss: 0.223662
+2013.0s 108 [1200]	valid_0's auc: 0.963237	valid_0's binary_logloss: 0.222798
+2022.9s 109 [1400]	valid_0's auc: 0.96353	valid_0's binary_logloss: 0.221834
+2032.6s 110 [1600]	valid_0's auc: 0.963838	valid_0's binary_logloss: 0.220822
+2042.2s 111 [1800]	valid_0's auc: 0.963988	valid_0's binary_logloss: 0.220307
+2051.7s 112 [2000]	valid_0's auc: 0.964144	valid_0's binary_logloss: 0.219765
+2060.8s 113 [2200]	valid_0's auc: 0.964278	valid_0's binary_logloss: 0.219294
+2070.1s 114 [2400]	valid_0's auc: 0.964372	valid_0's binary_logloss: 0.218945
+2079.3s 115 [2600]	valid_0's auc: 0.964432	valid_0's binary_logloss: 0.2187
+2088.5s 116 [2800]	valid_0's auc: 0.964476	valid_0's binary_logloss: 0.218506
+2097.7s 117 [3000]	valid_0's auc: 0.964521	valid_0's binary_logloss: 0.218325
+2097.7s 118 Did not meet early stopping. Best iteration is:
+2097.7s 119 [2996]	valid_0's auc: 0.964522	valid_0's binary_logloss: 0.218324
+2097.8s 120 ===== fold 2/5: semantic imputation =====
+2098.1s 121 fitting imputer: daily_screen_time_hours
+2107.8s 122 fitting imputer: weekend_screen_time
+2117.1s 123 fitting imputer: social_media_hours
+2126.7s 124 fitting imputer: gaming_hours
+2136.3s 125 fitting imputer: work_study_hours
+2157.6s 126 ===== fold 2/5: semantic LightGBM =====
+2160.5s 127 Training until validation scores don't improve for 200 rounds
+2181.7s 128 [200]	valid_0's auc: 0.954571	valid_0's binary_logloss: 0.247082
+2201.4s 129 [400]	valid_0's auc: 0.960133	valid_0's binary_logloss: 0.231992
+2218.4s 130 [600]	valid_0's auc: 0.962273	valid_0's binary_logloss: 0.225848
+2233.6s 131 [800]	valid_0's auc: 0.963116	valid_0's binary_logloss: 0.223275
+2248.1s 132 [1000]	valid_0's auc: 0.963641	valid_0's binary_logloss: 0.221649
+2262.6s 133 [1200]	valid_0's auc: 0.963933	valid_0's binary_logloss: 0.22069
+2276.6s 134 [1400]	valid_0's auc: 0.964268	valid_0's binary_logloss: 0.219577
+2290.2s 135 [1600]	valid_0's auc: 0.964453	valid_0's binary_logloss: 0.218955
+2304.1s 136 [1800]	valid_0's auc: 0.964632	valid_0's binary_logloss: 0.218341
+2317.3s 137 [2000]	valid_0's auc: 0.964774	valid_0's binary_logloss: 0.217842
+2330.5s 138 [2200]	valid_0's auc: 0.964862	valid_0's binary_logloss: 0.217513
+2343.3s 139 [2400]	valid_0's auc: 0.964948	valid_0's binary_logloss: 0.217185
+2356.6s 140 [2600]	valid_0's auc: 0.965014	valid_0's binary_logloss: 0.216924
+2369.5s 141 [2800]	valid_0's auc: 0.965051	valid_0's binary_logloss: 0.216763
+2382.6s 142 [3000]	valid_0's auc: 0.965075	valid_0's binary_logloss: 0.216645
+2395.5s 143 [3200]	valid_0's auc: 0.965088	valid_0's binary_logloss: 0.216561
+2408.2s 144 [3400]	valid_0's auc: 0.965112	valid_0's binary_logloss: 0.216448
+2421.2s 145 [3600]	valid_0's auc: 0.965138	valid_0's binary_logloss: 0.216332
+2434.4s 146 [3800]	valid_0's auc: 0.965175	valid_0's binary_logloss: 0.216184
+2447.1s 147 [4000]	valid_0's auc: 0.965176	valid_0's binary_logloss: 0.216148
+2452.2s 148 Early stopping, best iteration is:
+2452.2s 149 [3882]	valid_0's auc: 0.965184	valid_0's binary_logloss: 0.216143
+2452.4s 150 ===== fold 2/5: baseline XGBoost =====
+2457.2s 151 [0]	validation_0-auc:0.93549
+2497.9s 152 [200]	validation_0-auc:0.94908
+2534.8s 153 [400]	validation_0-auc:0.95741
+2571.5s 154 [600]	validation_0-auc:0.96146
+2607.8s 155 [800]	validation_0-auc:0.96320
+2643.9s 156 [1000]	validation_0-auc:0.96408
+2679.9s 157 [1200]	validation_0-auc:0.96461
+2715.6s 158 [1400]	validation_0-auc:0.96495
+2751.4s 159 [1600]	validation_0-auc:0.96518
+2787.0s 160 [1800]	validation_0-auc:0.96536
+2823.0s 161 [2000]	validation_0-auc:0.96552
+2858.6s 162 [2200]	validation_0-auc:0.96560
+2894.5s 163 [2400]	validation_0-auc:0.96566
+2930.5s 164 [2600]	validation_0-auc:0.96571
+2966.4s 165 [2800]	validation_0-auc:0.96573
+3002.5s 166 [3000]	validation_0-auc:0.96574
+3034.6s 167 [3178]	validation_0-auc:0.96572
+3038.3s 168 ===== fold 2/5: latent-feature XGBoost =====
+3044.1s 169 [0]	validation_0-auc:0.93538
+3092.1s 170 [200]	validation_0-auc:0.94925
+3134.9s 171 [400]	validation_0-auc:0.95728
+3177.5s 172 [600]	validation_0-auc:0.96117
+3219.9s 173 [800]	validation_0-auc:0.96297
+3261.9s 174 [1000]	validation_0-auc:0.96393
+3303.6s 175 [1200]	validation_0-auc:0.96447
+3345.4s 176 [1400]	validation_0-auc:0.96483
+3386.9s 177 [1600]	validation_0-auc:0.96507
+3428.5s 178 [1800]	validation_0-auc:0.96524
+3470.0s 179 [2000]	validation_0-auc:0.96541
+3511.0s 180 [2200]	validation_0-auc:0.96545
+3552.4s 181 [2400]	validation_0-auc:0.96551
+3593.8s 182 [2600]	validation_0-auc:0.96555
+3635.4s 183 [2800]	validation_0-auc:0.96558
+3677.2s 184 [3000]	validation_0-auc:0.96558
+3686.1s 185 [3043]	validation_0-auc:0.96558
+3822.8s 186 fold 2: baseline_xgb=0.9657477, latent_xgb=0.9655909, delta=-0.0001568
+3823.1s 187 
+3823.1s 188 ===== fold 3/5: native LightGBM =====
+3825.2s 189 Training until validation scores don't improve for 150 rounds
+3838.9s 190 [200]	valid_0's auc: 0.9534	valid_0's binary_logloss: 0.250794
+3852.2s 191 [400]	valid_0's auc: 0.959366	valid_0's binary_logloss: 0.234483
+3863.7s 192 [600]	valid_0's auc: 0.961442	valid_0's binary_logloss: 0.228464
+3874.0s 193 [800]	valid_0's auc: 0.962297	valid_0's binary_logloss: 0.225855
+3884.0s 194 [1000]	valid_0's auc: 0.962867	valid_0's binary_logloss: 0.224081
+3893.9s 195 [1200]	valid_0's auc: 0.963338	valid_0's binary_logloss: 0.222558
+3903.5s 196 [1400]	valid_0's auc: 0.963663	valid_0's binary_logloss: 0.221515
+3913.0s 197 [1600]	valid_0's auc: 0.963983	valid_0's binary_logloss: 0.220458
+3922.4s 198 [1800]	valid_0's auc: 0.964171	valid_0's binary_logloss: 0.219818
+3931.6s 199 [2000]	valid_0's auc: 0.964323	valid_0's binary_logloss: 0.219288
+3940.6s 200 [2200]	valid_0's auc: 0.964452	valid_0's binary_logloss: 0.218819
+3949.8s 201 [2400]	valid_0's auc: 0.964524	valid_0's binary_logloss: 0.218539
+3959.0s 202 [2600]	valid_0's auc: 0.964627	valid_0's binary_logloss: 0.218171
+3968.2s 203 [2800]	valid_0's auc: 0.964706	valid_0's binary_logloss: 0.217865
+3977.1s 204 [3000]	valid_0's auc: 0.96472	valid_0's binary_logloss: 0.217773
+3977.1s 205 Did not meet early stopping. Best iteration is:
+3977.1s 206 [2983]	valid_0's auc: 0.964722	valid_0's binary_logloss: 0.217772
+3977.2s 207 ===== fold 3/5: semantic imputation =====
+3977.6s 208 fitting imputer: daily_screen_time_hours
+3987.2s 209 fitting imputer: weekend_screen_time
+3996.3s 210 fitting imputer: social_media_hours
+4005.8s 211 fitting imputer: gaming_hours
+4015.4s 212 fitting imputer: work_study_hours
+4036.7s 213 ===== fold 3/5: semantic LightGBM =====
+4039.7s 214 Training until validation scores don't improve for 200 rounds
+4060.8s 215 [200]	valid_0's auc: 0.954706	valid_0's binary_logloss: 0.246757
+4080.4s 216 [400]	valid_0's auc: 0.960408	valid_0's binary_logloss: 0.231249
+4096.8s 217 [600]	valid_0's auc: 0.962272	valid_0's binary_logloss: 0.225804
+4111.5s 218 [800]	valid_0's auc: 0.96314	valid_0's binary_logloss: 0.223195
+4125.8s 219 [1000]	valid_0's auc: 0.963677	valid_0's binary_logloss: 0.221528
+4139.8s 220 [1200]	valid_0's auc: 0.964104	valid_0's binary_logloss: 0.220156
+4153.6s 221 [1400]	valid_0's auc: 0.964338	valid_0's binary_logloss: 0.219379
+4167.4s 222 [1600]	valid_0's auc: 0.964597	valid_0's binary_logloss: 0.218515
+4180.8s 223 [1800]	valid_0's auc: 0.964716	valid_0's binary_logloss: 0.218083
+4194.2s 224 [2000]	valid_0's auc: 0.964835	valid_0's binary_logloss: 0.217655
+4207.6s 225 [2200]	valid_0's auc: 0.964918	valid_0's binary_logloss: 0.21735
+4220.7s 226 [2400]	valid_0's auc: 0.964994	valid_0's binary_logloss: 0.217057
+4234.1s 227 [2600]	valid_0's auc: 0.965085	valid_0's binary_logloss: 0.216727
+4247.1s 228 [2800]	valid_0's auc: 0.965145	valid_0's binary_logloss: 0.216484
+4260.6s 229 [3000]	valid_0's auc: 0.965227	valid_0's binary_logloss: 0.216184
+4273.8s 230 [3200]	valid_0's auc: 0.965277	valid_0's binary_logloss: 0.215984
+4286.4s 231 [3400]	valid_0's auc: 0.965305	valid_0's binary_logloss: 0.215844
+4299.6s 232 [3600]	valid_0's auc: 0.965349	valid_0's binary_logloss: 0.215668
+4312.8s 233 [3800]	valid_0's auc: 0.965364	valid_0's binary_logloss: 0.215585
+4325.8s 234 [4000]	valid_0's auc: 0.965381	valid_0's binary_logloss: 0.215494
+4338.6s 235 [4200]	valid_0's auc: 0.965396	valid_0's binary_logloss: 0.215408
+4351.3s 236 [4400]	valid_0's auc: 0.965389	valid_0's binary_logloss: 0.215389
+4353.2s 237 Early stopping, best iteration is:
+4353.2s 238 [4230]	valid_0's auc: 0.965399	valid_0's binary_logloss: 0.215397
+4353.4s 239 ===== fold 3/5: baseline XGBoost =====
+4358.1s 240 [0]	validation_0-auc:0.93602
+4398.9s 241 [200]	validation_0-auc:0.94941
+4435.5s 242 [400]	validation_0-auc:0.95775
+4472.3s 243 [600]	validation_0-auc:0.96126
+4508.4s 244 [800]	validation_0-auc:0.96297
+4544.4s 245 [1000]	validation_0-auc:0.96400
+4580.4s 246 [1200]	validation_0-auc:0.96454
+4616.3s 247 [1400]	validation_0-auc:0.96497
+4652.2s 248 [1600]	validation_0-auc:0.96524
+4687.9s 249 [1800]	validation_0-auc:0.96543
+4723.8s 250 [2000]	validation_0-auc:0.96557
+4759.3s 251 [2200]	validation_0-auc:0.96566
+4795.0s 252 [2400]	validation_0-auc:0.96575
+4831.0s 253 [2600]	validation_0-auc:0.96579
+4867.3s 254 [2800]	validation_0-auc:0.96582
+4903.2s 255 [3000]	validation_0-auc:0.96583
+4939.5s 256 [3200]	validation_0-auc:0.96584
+4975.7s 257 [3400]	validation_0-auc:0.96584
+4993.3s 258 [3499]	validation_0-auc:0.96585
+4996.8s 259 ===== fold 3/5: latent-feature XGBoost =====
+5002.5s 260 [0]	validation_0-auc:0.93606
+5050.2s 261 [200]	validation_0-auc:0.94920
+5093.2s 262 [400]	validation_0-auc:0.95775
+5136.2s 263 [600]	validation_0-auc:0.96140
+5178.6s 264 [800]	validation_0-auc:0.96305
+5220.8s 265 [1000]	validation_0-auc:0.96394
+5262.7s 266 [1200]	validation_0-auc:0.96439
+5304.5s 267 [1400]	validation_0-auc:0.96476
+5346.2s 268 [1600]	validation_0-auc:0.96501
+5387.8s 269 [1800]	validation_0-auc:0.96519
+5429.9s 270 [2000]	validation_0-auc:0.96534
+5472.2s 271 [2200]	validation_0-auc:0.96543
+5514.0s 272 [2400]	validation_0-auc:0.96551
+5556.0s 273 [2600]	validation_0-auc:0.96556
+5598.3s 274 [2800]	validation_0-auc:0.96559
+5640.1s 275 [3000]	validation_0-auc:0.96561
+5678.5s 276 [3183]	validation_0-auc:0.96561
+5824.8s 277 fold 3: baseline_xgb=0.9658530, latent_xgb=0.9656189, delta=-0.0002341
+5825.5s 278 
+5825.5s 279 ===== fold 4/5: native LightGBM =====
+5827.6s 280 Training until validation scores don't improve for 150 rounds
+5841.6s 281 [200]	valid_0's auc: 0.952482	valid_0's binary_logloss: 0.25276
+5854.8s 282 [400]	valid_0's auc: 0.95853	valid_0's binary_logloss: 0.236429
+5866.3s 283 [600]	valid_0's auc: 0.960497	valid_0's binary_logloss: 0.230795
+5876.6s 284 [800]	valid_0's auc: 0.961445	valid_0's binary_logloss: 0.227981
+5886.6s 285 [1000]	valid_0's auc: 0.962065	valid_0's binary_logloss: 0.226113
+5896.4s 286 [1200]	valid_0's auc: 0.962389	valid_0's binary_logloss: 0.225095
+5906.1s 287 [1400]	valid_0's auc: 0.962791	valid_0's binary_logloss: 0.223836
+5915.5s 288 [1600]	valid_0's auc: 0.963054	valid_0's binary_logloss: 0.222976
+5925.2s 289 [1800]	valid_0's auc: 0.963247	valid_0's binary_logloss: 0.222326
+5934.5s 290 [2000]	valid_0's auc: 0.963387	valid_0's binary_logloss: 0.221861
+5943.9s 291 [2200]	valid_0's auc: 0.963501	valid_0's binary_logloss: 0.22146
+5953.1s 292 [2400]	valid_0's auc: 0.963613	valid_0's binary_logloss: 0.221073
+5962.5s 293 [2600]	valid_0's auc: 0.963728	valid_0's binary_logloss: 0.220675
+5971.6s 294 [2800]	valid_0's auc: 0.963805	valid_0's binary_logloss: 0.220405
+5980.6s 295 [3000]	valid_0's auc: 0.963869	valid_0's binary_logloss: 0.220169
+5980.6s 296 Did not meet early stopping. Best iteration is:
+5980.6s 297 [3000]	valid_0's auc: 0.963869	valid_0's binary_logloss: 0.220169
+5980.7s 298 ===== fold 4/5: semantic imputation =====
+5981.1s 299 fitting imputer: daily_screen_time_hours
+5990.7s 300 fitting imputer: weekend_screen_time
+5999.9s 301 fitting imputer: social_media_hours
+6009.4s 302 fitting imputer: gaming_hours
+6019.0s 303 fitting imputer: work_study_hours
+6040.4s 304 ===== fold 4/5: semantic LightGBM =====
+6043.4s 305 Training until validation scores don't improve for 200 rounds
+6064.9s 306 [200]	valid_0's auc: 0.95371	valid_0's binary_logloss: 0.248996
+6084.8s 307 [400]	valid_0's auc: 0.959428	valid_0's binary_logloss: 0.233697
+6101.8s 308 [600]	valid_0's auc: 0.961265	valid_0's binary_logloss: 0.228479
+6116.6s 309 [800]	valid_0's auc: 0.962187	valid_0's binary_logloss: 0.225748
+6131.1s 310 [1000]	valid_0's auc: 0.962873	valid_0's binary_logloss: 0.223686
+6145.7s 311 [1200]	valid_0's auc: 0.963305	valid_0's binary_logloss: 0.22235
+6159.9s 312 [1400]	valid_0's auc: 0.963691	valid_0's binary_logloss: 0.22111
+6173.2s 313 [1600]	valid_0's auc: 0.963827	valid_0's binary_logloss: 0.220648
+6186.9s 314 [1800]	valid_0's auc: 0.963952	valid_0's binary_logloss: 0.220222
+6200.4s 315 [2000]	valid_0's auc: 0.964049	valid_0's binary_logloss: 0.219881
+6213.9s 316 [2200]	valid_0's auc: 0.964124	valid_0's binary_logloss: 0.219579
+6227.1s 317 [2400]	valid_0's auc: 0.96422	valid_0's binary_logloss: 0.219232
+6240.2s 318 [2600]	valid_0's auc: 0.964279	valid_0's binary_logloss: 0.219013
+6254.1s 319 [2800]	valid_0's auc: 0.964343	valid_0's binary_logloss: 0.218777
+6267.2s 320 [3000]	valid_0's auc: 0.964384	valid_0's binary_logloss: 0.21861
+6280.4s 321 [3200]	valid_0's auc: 0.964366	valid_0's binary_logloss: 0.218626
+6280.8s 322 Early stopping, best iteration is:
+6280.8s 323 [3007]	valid_0's auc: 0.964387	valid_0's binary_logloss: 0.218599
+6280.9s 324 ===== fold 4/5: baseline XGBoost =====
+6285.8s 325 [0]	validation_0-auc:0.93497
+6327.5s 326 [200]	validation_0-auc:0.94827
+6364.8s 327 [400]	validation_0-auc:0.95696
+6402.3s 328 [600]	validation_0-auc:0.96069
+6439.1s 329 [800]	validation_0-auc:0.96238
+6475.4s 330 [1000]	validation_0-auc:0.96331
+6511.6s 331 [1200]	validation_0-auc:0.96388
+6547.7s 332 [1400]	validation_0-auc:0.96422
+6584.1s 333 [1600]	validation_0-auc:0.96457
+6620.2s 334 [1800]	validation_0-auc:0.96475
+6656.4s 335 [2000]	validation_0-auc:0.96492
+6692.9s 336 [2200]	validation_0-auc:0.96500
+6729.4s 337 [2400]	validation_0-auc:0.96507
+6766.1s 338 [2600]	validation_0-auc:0.96512
+6802.9s 339 [2800]	validation_0-auc:0.96515
+6832.4s 340 [2962]	validation_0-auc:0.96515
+6836.2s 341 ===== fold 4/5: latent-feature XGBoost =====
+6842.0s 342 [0]	validation_0-auc:0.93431
+6890.5s 343 [200]	validation_0-auc:0.94859
+6933.8s 344 [400]	validation_0-auc:0.95675
+6977.1s 345 [600]	validation_0-auc:0.96059
+7019.5s 346 [800]	validation_0-auc:0.96223
+7061.1s 347 [1000]	validation_0-auc:0.96308
+7102.9s 348 [1200]	validation_0-auc:0.96370
+7144.2s 349 [1400]	validation_0-auc:0.96407
+7185.7s 350 [1600]	validation_0-auc:0.96439
+7226.9s 351 [1800]	validation_0-auc:0.96456
+7268.5s 352 [2000]	validation_0-auc:0.96469
+7310.2s 353 [2200]	validation_0-auc:0.96480
+7352.0s 354 [2400]	validation_0-auc:0.96487
+7393.6s 355 [2600]	validation_0-auc:0.96494
+7435.3s 356 [2800]	validation_0-auc:0.96498
+7476.6s 357 [3000]	validation_0-auc:0.96500
+7518.7s 358 [3200]	validation_0-auc:0.96500
+7555.4s 359 [3376]	validation_0-auc:0.96500
+7684.9s 360 fold 4: baseline_xgb=0.9651546, latent_xgb=0.9650089, delta=-0.0001457
+7685.5s 361 
+7685.5s 362 ===== fold 5/5: native LightGBM =====
+7687.9s 363 Training until validation scores don't improve for 150 rounds
+7701.9s 364 [200]	valid_0's auc: 0.951862	valid_0's binary_logloss: 0.253865
+7715.4s 365 [400]	valid_0's auc: 0.957699	valid_0's binary_logloss: 0.238228
+7727.0s 366 [600]	valid_0's auc: 0.959835	valid_0's binary_logloss: 0.232249
+7737.5s 367 [800]	valid_0's auc: 0.960708	valid_0's binary_logloss: 0.229691
+7747.7s 368 [1000]	valid_0's auc: 0.961275	valid_0's binary_logloss: 0.227988
+7757.7s 369 [1200]	valid_0's auc: 0.961754	valid_0's binary_logloss: 0.226529
+7767.6s 370 [1400]	valid_0's auc: 0.962066	valid_0's binary_logloss: 0.225564
+7777.1s 371 [1600]	valid_0's auc: 0.962285	valid_0's binary_logloss: 0.224871
+7786.7s 372 [1800]	valid_0's auc: 0.962474	valid_0's binary_logloss: 0.224267
+7795.9s 373 [2000]	valid_0's auc: 0.962599	valid_0's binary_logloss: 0.223839
+7805.2s 374 [2200]	valid_0's auc: 0.962722	valid_0's binary_logloss: 0.223438
+7814.4s 375 [2400]	valid_0's auc: 0.962785	valid_0's binary_logloss: 0.223209
+7823.7s 376 [2600]	valid_0's auc: 0.962846	valid_0's binary_logloss: 0.222992
+7832.9s 377 [2800]	valid_0's auc: 0.962916	valid_0's binary_logloss: 0.222756
+7842.1s 378 [3000]	valid_0's auc: 0.96296	valid_0's binary_logloss: 0.222583
+7842.1s 379 Did not meet early stopping. Best iteration is:
+7842.1s 380 [2998]	valid_0's auc: 0.962962	valid_0's binary_logloss: 0.22258
+7842.2s 381 ===== fold 5/5: semantic imputation =====
+7842.6s 382 fitting imputer: daily_screen_time_hours
+7852.4s 383 fitting imputer: weekend_screen_time
+7861.7s 384 fitting imputer: social_media_hours
+7871.5s 385 fitting imputer: gaming_hours
+7881.1s 386 fitting imputer: work_study_hours
+7902.6s 387 ===== fold 5/5: semantic LightGBM =====
+7905.5s 388 Training until validation scores don't improve for 200 rounds
+7926.8s 389 [200]	valid_0's auc: 0.953006	valid_0's binary_logloss: 0.250437
+7946.8s 390 [400]	valid_0's auc: 0.958662	valid_0's binary_logloss: 0.235386
+7963.5s 391 [600]	valid_0's auc: 0.960611	valid_0's binary_logloss: 0.229921
+7978.4s 392 [800]	valid_0's auc: 0.961485	valid_0's binary_logloss: 0.227372
+7992.8s 393 [1000]	valid_0's auc: 0.961978	valid_0's binary_logloss: 0.225894
+8007.1s 394 [1200]	valid_0's auc: 0.962449	valid_0's binary_logloss: 0.224453
+8021.2s 395 [1400]	valid_0's auc: 0.962721	valid_0's binary_logloss: 0.223596
+8035.0s 396 [1600]	valid_0's auc: 0.962911	valid_0's binary_logloss: 0.222983
+8048.9s 397 [1800]	valid_0's auc: 0.963103	valid_0's binary_logloss: 0.222375
+8062.6s 398 [2000]	valid_0's auc: 0.963234	valid_0's binary_logloss: 0.22194
+8075.8s 399 [2200]	valid_0's auc: 0.963333	valid_0's binary_logloss: 0.22159
+8089.2s 400 [2400]	valid_0's auc: 0.963433	valid_0's binary_logloss: 0.221248
+8102.4s 401 [2600]	valid_0's auc: 0.963509	valid_0's binary_logloss: 0.220982
+8115.5s 402 [2800]	valid_0's auc: 0.963565	valid_0's binary_logloss: 0.220786
+8128.6s 403 [3000]	valid_0's auc: 0.963603	valid_0's binary_logloss: 0.220648
+8141.6s 404 [3200]	valid_0's auc: 0.963642	valid_0's binary_logloss: 0.220507
+8154.7s 405 [3400]	valid_0's auc: 0.963671	valid_0's binary_logloss: 0.220395
+8167.9s 406 [3600]	valid_0's auc: 0.96369	valid_0's binary_logloss: 0.22032
+8181.0s 407 [3800]	valid_0's auc: 0.96372	valid_0's binary_logloss: 0.220212
+8193.8s 408 [4000]	valid_0's auc: 0.963734	valid_0's binary_logloss: 0.220157
+8203.8s 409 Early stopping, best iteration is:
+8203.8s 410 [3954]	valid_0's auc: 0.963741	valid_0's binary_logloss: 0.220137
+8204.0s 411 ===== fold 5/5: baseline XGBoost =====
+8208.7s 412 [0]	validation_0-auc:0.93478
+8250.3s 413 [200]	validation_0-auc:0.94769
+8287.5s 414 [400]	validation_0-auc:0.95606
+8324.5s 415 [600]	validation_0-auc:0.95975
+8360.9s 416 [800]	validation_0-auc:0.96155
+8397.4s 417 [1000]	validation_0-auc:0.96244
+8433.8s 418 [1200]	validation_0-auc:0.96295
+8469.9s 419 [1400]	validation_0-auc:0.96327
+8506.1s 420 [1600]	validation_0-auc:0.96356
+8542.3s 421 [1800]	validation_0-auc:0.96373
+8578.5s 422 [2000]	validation_0-auc:0.96388
+8614.7s 423 [2200]	validation_0-auc:0.96397
+8650.8s 424 [2400]	validation_0-auc:0.96402
+8687.2s 425 [2600]	validation_0-auc:0.96404
+8723.4s 426 [2800]	validation_0-auc:0.96405
+8759.7s 427 [3000]	validation_0-auc:0.96405
+8775.0s 428 [3085]	validation_0-auc:0.96405
+8778.8s 429 ===== fold 5/5: latent-feature XGBoost =====
+8784.4s 430 [0]	validation_0-auc:0.93455
+8832.2s 431 [200]	validation_0-auc:0.94790
+8875.1s 432 [400]	validation_0-auc:0.95583
+8917.6s 433 [600]	validation_0-auc:0.95963
+8959.7s 434 [800]	validation_0-auc:0.96138
+9001.5s 435 [1000]	validation_0-auc:0.96233
+9042.9s 436 [1200]	validation_0-auc:0.96283
+9084.1s 437 [1400]	validation_0-auc:0.96317
+9125.4s 438 [1600]	validation_0-auc:0.96342
+9166.8s 439 [1800]	validation_0-auc:0.96360
+9207.8s 440 [2000]	validation_0-auc:0.96373
+9249.4s 441 [2200]	validation_0-auc:0.96380
+9290.7s 442 [2400]	validation_0-auc:0.96384
+9332.1s 443 [2600]	validation_0-auc:0.96388
+9374.1s 444 [2800]	validation_0-auc:0.96389
+9415.3s 445 [3000]	validation_0-auc:0.96390
+9456.6s 446 [3200]	validation_0-auc:0.96390
+9498.0s 447 [3400]	validation_0-auc:0.96390
+9501.9s 448 [3418]	validation_0-auc:0.96390
+9646.0s 449 fold 5: baseline_xgb=0.9640624, latent_xgb=0.9639087, delta=-0.0001537
+9733.0s 450 
+9733.0s 451 V4 complete
+9733.0s 452 {
+9733.0s 453 "version": "v4",
+9733.0s 454 "models": {
+9733.0s 455 "native": {
+9733.0s 456 "oof_auc": 0.9638653666286137,
+9733.0s 457 "drift_weighted_oof_auc": 0.9640792604049642
+9733.0s 458 },
+9733.0s 459 "semantic": {
+9733.0s 460 "oof_auc": 0.9645050946050624,
+9733.0s 461 "drift_weighted_oof_auc": 0.9647181968767682
+9733.0s 462 },
+9733.0s 463 "xgb_baseline": {
+9733.0s 464 "oof_auc": 0.9650292227469464,
+9733.0s 465 "drift_weighted_oof_auc": 0.9652314381843573
+9733.0s 466 },
+9733.0s 467 "xgb_latent": {
+9733.0s 468 "oof_auc": 0.96486447891036,
+9733.0s 469 "drift_weighted_oof_auc": 0.9650681053578675
+9733.0s 470 }
+9733.0s 471 },
+9733.0s 472 "latent_vs_baseline_oof_gain": -0.00016474383658637848,
+9733.0s 473 "latent_vs_baseline_drift_weighted_gain": -0.00016333282648983705,
+9733.0s 474 "latent_positive_folds": 0,
+9733.0s 475 "feature_accepted": false,
+9733.0s 476 "v3_fixed_oof_auc": 0.9651852414737245,
+9733.0s 477 "v3_fixed_drift_weighted_oof_auc": 0.9653870527271244,
+9733.0s 478 "selected_oof_auc": 0.9651852414737245,
+9733.0s 479 "selected_drift_weighted_oof_auc": 0.9653870527271244,
+9733.0s 480 "selected_weights": {
+9733.0s 481 "native": 0.1,
+9733.0s 482 "semantic": 0.25,
+9733.0s 483 "xgb_baseline": 0.65,
+9733.0s 484 "xgb_latent": 0.0
+9733.0s 485 },
+9733.0s 486 "selected_blend_type": "raw",
+9733.0s 487 "blend_accepted": false,
+9733.0s 488 "selection_reason": "CV guardrail fallback to fixed V3 blend",
+9733.0s 489 "folds": 5,
+9733.0s 490 "seed": 2026,
+9733.0s 491 "xgb_device": "cpu",
+9733.0s 492 "elapsed_minutes": 161.89867371718088,
+9733.0s 493 "submission_path": "/kaggle/working/submission.csv"
+9733.0s 494 }
+9737.3s 495 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+9737.3s 496 cells[i][c] = re.sub('\\\\\|', '|', cell)
+9737.5s 497 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+9737.5s 498 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+9738.3s 499 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+9738.8s 500 [NbConvertApp] Writing 74239 bytes to __notebook__.ipynb
+9742.0s 501 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+9743.3s 502 [NbConvertApp] Writing 464424 bytes to __results__.html

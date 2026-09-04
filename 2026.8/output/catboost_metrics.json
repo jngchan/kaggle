@@ -1,0 +1,12 @@
+{
+  "model": "catboost",
+  "oof_auc": 0.9623740973339148,
+  "fold_auc_mean": 0.9623750040332766,
+  "fold_auc_std": 0.000784634815405762,
+  "elapsed_minutes": 33.102888071537016,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count": 38
+}

@@ -1,0 +1,350 @@
+8.7s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.7s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.7s 3 0.00s - to python to disable frozen modules.
+8.7s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.6s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.6s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.6s 7 0.00s - to python to disable frozen modules.
+9.6s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+19.5s 9 Using competition data from: /kaggle/input/competitions/playground-series-s6e8
+21.4s 10 XGBoost CUDA probe succeeded.
+21.4s 11 train=691,369, test=296,302, device=cuda, outer=5, inner=5
+21.6s 12 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:11] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+21.6s 13 bst.update(dtrain, iteration=i, fobj=obj)
+21.6s 14 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:11] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+21.6s 15 bst.update(dtrain, iteration=i, fobj=obj)
+21.6s 16 
+21.6s 17 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:11] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+21.6s 18 bst.update(dtrain, iteration=i, fobj=obj)
+21.6s 19 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:11] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+21.6s 20 bst.update(dtrain, iteration=i, fobj=obj)
+23.7s 21 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:13] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+23.8s 22 bst.update(dtrain, iteration=i, fobj=obj)
+23.8s 23 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:13] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+23.8s 24 bst.update(dtrain, iteration=i, fobj=obj)
+23.8s 25 
+23.8s 26 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:13] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+23.8s 27 bst.update(dtrain, iteration=i, fobj=obj)
+23.8s 28 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:13] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+23.8s 29 bst.update(dtrain, iteration=i, fobj=obj)
+49.6s 30 imputed age: missing=0.0466, seconds=27.2
+50.9s 31 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:40] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+50.9s 32 bst.update(dtrain, iteration=i, fobj=obj)
+50.9s 33 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:40] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+50.9s 34 bst.update(dtrain, iteration=i, fobj=obj)
+50.9s 35 
+50.9s 36 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:40] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+50.9s 37 bst.update(dtrain, iteration=i, fobj=obj)
+50.9s 38 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:41:40] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+50.9s 39 bst.update(dtrain, iteration=i, fobj=obj)
+73.2s 40 imputed daily_screen_time_hours: missing=0.1302, seconds=23.5
+74.5s 41 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:04] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+74.5s 42 bst.update(dtrain, iteration=i, fobj=obj)
+74.5s 43 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:04] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+74.5s 44 bst.update(dtrain, iteration=i, fobj=obj)
+74.5s 45 
+74.5s 46 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:04] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+74.5s 47 bst.update(dtrain, iteration=i, fobj=obj)
+74.5s 48 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:04] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+74.5s 49 bst.update(dtrain, iteration=i, fobj=obj)
+96.3s 50 imputed social_media_hours: missing=0.1837, seconds=23.0
+97.6s 51 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:27] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+97.6s 52 bst.update(dtrain, iteration=i, fobj=obj)
+97.6s 53 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:27] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+97.6s 54 bst.update(dtrain, iteration=i, fobj=obj)
+97.6s 55 
+97.6s 56 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:27] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+97.6s 57 bst.update(dtrain, iteration=i, fobj=obj)
+97.6s 58 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:27] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+97.6s 59 bst.update(dtrain, iteration=i, fobj=obj)
+120.7s 60 imputed gaming_hours: missing=0.1886, seconds=24.3
+122.2s 61 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:52] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+122.2s 62 bst.update(dtrain, iteration=i, fobj=obj)
+122.2s 63 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:52] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+122.2s 64 bst.update(dtrain, iteration=i, fobj=obj)
+122.2s 65 
+122.2s 66 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:52] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+122.2s 67 bst.update(dtrain, iteration=i, fobj=obj)
+122.2s 68 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:42:52] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+122.2s 69 bst.update(dtrain, iteration=i, fobj=obj)
+147.4s 70 imputed work_study_hours: missing=0.0803, seconds=26.5
+148.8s 71 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:18] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+148.8s 72 bst.update(dtrain, iteration=i, fobj=obj)
+148.8s 73 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:18] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+148.8s 74 bst.update(dtrain, iteration=i, fobj=obj)
+148.8s 75 
+148.8s 76 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:18] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+148.8s 77 bst.update(dtrain, iteration=i, fobj=obj)
+148.8s 78 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:18] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+148.8s 79 bst.update(dtrain, iteration=i, fobj=obj)
+172.8s 80 imputed sleep_hours: missing=0.0678, seconds=25.4
+174.2s 81 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:44] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+174.2s 82 bst.update(dtrain, iteration=i, fobj=obj)
+174.2s 83 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:44] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+174.2s 84 bst.update(dtrain, iteration=i, fobj=obj)
+174.2s 85 
+174.2s 86 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:44] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+174.2s 87 bst.update(dtrain, iteration=i, fobj=obj)
+174.2s 88 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:43:44] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+174.2s 89 bst.update(dtrain, iteration=i, fobj=obj)
+196.9s 90 imputed notifications_per_day: missing=0.1031, seconds=23.9
+198.2s 91 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:08] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+198.2s 92 bst.update(dtrain, iteration=i, fobj=obj)
+198.2s 93 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:08] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+198.2s 94 bst.update(dtrain, iteration=i, fobj=obj)
+198.2s 95 
+198.2s 96 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:08] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+198.2s 97 bst.update(dtrain, iteration=i, fobj=obj)
+198.2s 98 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:08] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+198.2s 99 bst.update(dtrain, iteration=i, fobj=obj)
+221.0s 100 imputed app_opens_per_day: missing=0.1077, seconds=24.1
+222.3s 101 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:32] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+222.3s 102 bst.update(dtrain, iteration=i, fobj=obj)
+222.3s 103 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:32] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+222.3s 104 bst.update(dtrain, iteration=i, fobj=obj)
+222.3s 105 
+222.3s 106 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:32] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+222.3s 107 bst.update(dtrain, iteration=i, fobj=obj)
+222.3s 108 /usr/local/lib/python3.12/dist-packages/xgboost/training.py:200: UserWarning: [02:44:32] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+222.3s 109 bst.update(dtrain, iteration=i, fobj=obj)
+244.8s 110 imputed weekend_screen_time: missing=0.1648, seconds=23.7
+254.3s 111 
+254.3s 112 ===== fold 1/5: nested exact-value encoding =====
+262.3s 113 ===== fold 1/5: xgb_aug =====
+265.7s 114 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:45:15] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+265.7s 115 self.starting_round = model.num_boosted_rounds()
+265.7s 116 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:45:15] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+265.7s 117 self.starting_round = model.num_boosted_rounds()
+265.7s 118 
+265.7s 119 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:45:15] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+265.7s 120 self.starting_round = model.num_boosted_rounds()
+265.7s 121 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:45:15] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+265.7s 122 self.starting_round = model.num_boosted_rounds()
+674.1s 123 xgb_aug: auc=0.9650561, best_iteration=2796
+674.2s 124 ===== fold 1/5: xgb_te =====
+679.4s 125 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:52:09] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+679.4s 126 self.starting_round = model.num_boosted_rounds()
+679.4s 127 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:52:09] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+679.4s 128 self.starting_round = model.num_boosted_rounds()
+679.4s 129 
+679.4s 130 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:52:09] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+679.4s 131 self.starting_round = model.num_boosted_rounds()
+679.4s 132 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:52:09] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+679.4s 133 self.starting_round = model.num_boosted_rounds()
+935.3s 134 xgb_te: auc=0.9675087, best_iteration=1185
+935.4s 135 ===== fold 1/5: xgb_lattice =====
+941.4s 136 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:56:31] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+941.4s 137 self.starting_round = model.num_boosted_rounds()
+941.4s 138 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:56:31] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+941.4s 139 self.starting_round = model.num_boosted_rounds()
+941.4s 140 
+941.4s 141 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:56:31] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+941.4s 142 self.starting_round = model.num_boosted_rounds()
+941.4s 143 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [02:56:31] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+941.4s 144 self.starting_round = model.num_boosted_rounds()
+1213.5s 145 xgb_lattice: auc=0.9674479, best_iteration=1109
+1213.7s 146 ===== fold 1/5: lgb_te =====
+1292.1s 147 lgb_te: auc=0.9670996, best_iteration=538
+1292.1s 148 ===== fold 1/5: cat_aug =====
+1293.4s 149 CatBoost GPU failed; retrying CPU: catboost/cuda/cuda_lib/cuda_base.h:265: CUDA error 35: CUDA driver version is insufficient for CUDA runtime version
+2586.0s 150 cat_aug: auc=0.9636508, best_iteration=2987
+2586.2s 151 
+2586.2s 152 ===== fold 2/5: nested exact-value encoding =====
+2594.0s 153 ===== fold 2/5: xgb_aug =====
+2597.5s 154 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:24:07] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+2597.5s 155 self.starting_round = model.num_boosted_rounds()
+2597.5s 156 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:24:07] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+2597.5s 157 self.starting_round = model.num_boosted_rounds()
+2597.5s 158 
+2597.5s 159 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:24:07] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+2597.5s 160 self.starting_round = model.num_boosted_rounds()
+2597.5s 161 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:24:07] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+2597.5s 162 self.starting_round = model.num_boosted_rounds()
+2981.6s 163 xgb_aug: auc=0.9654449, best_iteration=2610
+2981.7s 164 ===== fold 2/5: xgb_te =====
+2986.9s 165 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:30:36] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+2986.9s 166 self.starting_round = model.num_boosted_rounds()
+2986.9s 167 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:30:36] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+2986.9s 168 self.starting_round = model.num_boosted_rounds()
+2986.9s 169 
+2986.9s 170 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:30:36] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+2986.9s 171 self.starting_round = model.num_boosted_rounds()
+2986.9s 172 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:30:36] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+2986.9s 173 self.starting_round = model.num_boosted_rounds()
+3199.9s 174 xgb_te: auc=0.9682395, best_iteration=961
+3200.0s 175 ===== fold 2/5: xgb_lattice =====
+3206.0s 176 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:34:15] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+3206.0s 177 self.starting_round = model.num_boosted_rounds()
+3206.0s 178 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:34:15] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+3206.0s 179 self.starting_round = model.num_boosted_rounds()
+3206.0s 180 
+3206.0s 181 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:34:15] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+3206.0s 182 self.starting_round = model.num_boosted_rounds()
+3206.0s 183 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [03:34:15] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+3206.0s 184 self.starting_round = model.num_boosted_rounds()
+3487.0s 185 xgb_lattice: auc=0.9683558, best_iteration=1159
+3487.1s 186 ===== fold 2/5: lgb_te =====
+3564.2s 187 lgb_te: auc=0.9679209, best_iteration=517
+3564.2s 188 ===== fold 2/5: cat_aug =====
+3565.7s 189 CatBoost GPU failed; retrying CPU: catboost/cuda/cuda_lib/cuda_manager.cpp:201: Condition violated: `State == nullptr'
+4858.4s 190 cat_aug: auc=0.9641712, best_iteration=2999
+4858.9s 191 
+4858.9s 192 ===== fold 3/5: nested exact-value encoding =====
+4867.0s 193 ===== fold 3/5: xgb_aug =====
+4870.3s 194 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:02:00] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+4870.3s 195 self.starting_round = model.num_boosted_rounds()
+4870.3s 196 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:02:00] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+4870.3s 197 self.starting_round = model.num_boosted_rounds()
+4870.3s 198 
+4870.3s 199 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:02:00] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+4870.3s 200 self.starting_round = model.num_boosted_rounds()
+4870.3s 201 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:02:00] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+4870.3s 202 self.starting_round = model.num_boosted_rounds()
+5248.7s 203 xgb_aug: auc=0.9654906, best_iteration=2576
+5248.9s 204 ===== fold 3/5: xgb_te =====
+5254.1s 205 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:08:24] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+5254.1s 206 self.starting_round = model.num_boosted_rounds()
+5254.1s 207 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:08:24] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+5254.1s 208 self.starting_round = model.num_boosted_rounds()
+5254.1s 209 
+5254.1s 210 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:08:24] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+5254.1s 211 self.starting_round = model.num_boosted_rounds()
+5254.1s 212 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:08:24] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+5254.1s 213 self.starting_round = model.num_boosted_rounds()
+5470.0s 214 xgb_te: auc=0.9682588, best_iteration=973
+5470.1s 215 ===== fold 3/5: xgb_lattice =====
+5476.1s 216 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:12:06] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+5476.1s 217 self.starting_round = model.num_boosted_rounds()
+5476.1s 218 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:12:06] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+5476.1s 219 self.starting_round = model.num_boosted_rounds()
+5476.1s 220 
+5476.1s 221 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:12:06] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+5476.1s 222 self.starting_round = model.num_boosted_rounds()
+5476.1s 223 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:12:06] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+5476.1s 224 self.starting_round = model.num_boosted_rounds()
+5734.7s 225 xgb_lattice: auc=0.9683448, best_iteration=1050
+5734.8s 226 ===== fold 3/5: lgb_te =====
+5812.2s 227 lgb_te: auc=0.9679786, best_iteration=523
+5812.2s 228 ===== fold 3/5: cat_aug =====
+5813.6s 229 CatBoost GPU failed; retrying CPU: catboost/cuda/cuda_lib/cuda_manager.cpp:201: Condition violated: `State == nullptr'
+7097.4s 230 cat_aug: auc=0.9643571, best_iteration=2995
+7097.6s 231 
+7097.6s 232 ===== fold 4/5: nested exact-value encoding =====
+7106.7s 233 ===== fold 4/5: xgb_aug =====
+7110.0s 234 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:39:20] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+7110.0s 235 self.starting_round = model.num_boosted_rounds()
+7110.0s 236 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:39:20] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+7110.0s 237 self.starting_round = model.num_boosted_rounds()
+7110.0s 238 
+7110.0s 239 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:39:20] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+7110.0s 240 self.starting_round = model.num_boosted_rounds()
+7110.0s 241 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:39:20] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+7110.0s 242 self.starting_round = model.num_boosted_rounds()
+7460.7s 243 xgb_aug: auc=0.9665635, best_iteration=2380
+7460.8s 244 ===== fold 4/5: xgb_te =====
+7466.1s 245 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:45:16] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+7466.1s 246 self.starting_round = model.num_boosted_rounds()
+7466.1s 247 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:45:16] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+7466.1s 248 self.starting_round = model.num_boosted_rounds()
+7466.1s 249 
+7466.1s 250 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:45:16] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+7466.1s 251 self.starting_round = model.num_boosted_rounds()
+7466.1s 252 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:45:16] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+7466.1s 253 self.starting_round = model.num_boosted_rounds()
+7699.9s 254 xgb_te: auc=0.9686421, best_iteration=1073
+7700.1s 255 ===== fold 4/5: xgb_lattice =====
+7706.1s 256 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:49:16] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+7706.1s 257 self.starting_round = model.num_boosted_rounds()
+7706.1s 258 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:49:16] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+7706.1s 259 self.starting_round = model.num_boosted_rounds()
+7706.1s 260 
+7706.1s 261 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:49:16] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+7706.1s 262 self.starting_round = model.num_boosted_rounds()
+7706.1s 263 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [04:49:16] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+7706.1s 264 self.starting_round = model.num_boosted_rounds()
+7924.2s 265 xgb_lattice: auc=0.9686419, best_iteration=863
+7924.3s 266 ===== fold 4/5: lgb_te =====
+7993.1s 267 lgb_te: auc=0.9682113, best_iteration=430
+7993.1s 268 ===== fold 4/5: cat_aug =====
+7994.7s 269 CatBoost GPU failed; retrying CPU: catboost/cuda/cuda_lib/cuda_manager.cpp:201: Condition violated: `State == nullptr'
+9284.4s 270 cat_aug: auc=0.9653591, best_iteration=2999
+9284.7s 271 
+9284.7s 272 ===== fold 5/5: nested exact-value encoding =====
+9293.3s 273 ===== fold 5/5: xgb_aug =====
+9296.7s 274 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:15:46] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+9296.7s 275 self.starting_round = model.num_boosted_rounds()
+9296.7s 276 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:15:46] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+9296.7s 277 self.starting_round = model.num_boosted_rounds()
+9296.7s 278 
+9296.7s 279 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:15:46] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+9296.7s 280 self.starting_round = model.num_boosted_rounds()
+9296.7s 281 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:15:46] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+9296.7s 282 self.starting_round = model.num_boosted_rounds()
+9617.6s 283 xgb_aug: auc=0.9653863, best_iteration=2158
+9617.7s 284 ===== fold 5/5: xgb_te =====
+9622.7s 285 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:21:12] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+9622.7s 286 self.starting_round = model.num_boosted_rounds()
+9622.7s 287 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:21:12] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+9622.7s 288 self.starting_round = model.num_boosted_rounds()
+9622.7s 289 
+9622.7s 290 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:21:12] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+9622.7s 291 self.starting_round = model.num_boosted_rounds()
+9622.7s 292 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:21:12] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+9622.7s 293 self.starting_round = model.num_boosted_rounds()
+9918.4s 294 xgb_te: auc=0.9678533, best_iteration=1367
+9918.6s 295 ===== fold 5/5: xgb_lattice =====
+9924.4s 296 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:26:14] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+9924.4s 297 self.starting_round = model.num_boosted_rounds()
+9924.4s 298 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:26:14] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+9924.4s 299 self.starting_round = model.num_boosted_rounds()
+9924.4s 300 
+9924.4s 301 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:26:14] WARNING: /__w/xgboost/xgboost/src/context.cc:53: No visible GPU is found, setting device to CPU.
+9924.4s 302 self.starting_round = model.num_boosted_rounds()
+9924.4s 303 /usr/local/lib/python3.12/dist-packages/xgboost/callback.py:385: UserWarning: [05:26:14] WARNING: /__w/xgboost/xgboost/src/context.cc:207: Device is changed from GPU to CPU as we couldn't find any available GPU on the system.
+9924.4s 304 self.starting_round = model.num_boosted_rounds()
+10207.4s 305 xgb_lattice: auc=0.9679509, best_iteration=1143
+10207.5s 306 ===== fold 5/5: lgb_te =====
+10282.9s 307 lgb_te: auc=0.9675708, best_iteration=500
+10283.0s 308 ===== fold 5/5: cat_aug =====
+10284.3s 309 CatBoost GPU failed; retrying CPU: catboost/cuda/cuda_lib/cuda_manager.cpp:201: Condition violated: `State == nullptr'
+11578.6s 310 cat_aug: auc=0.9643376, best_iteration=2999
+11605.1s 311 
+11605.1s 312 V9 complete
+11605.4s 313 {
+11605.4s 314 "version": "v9",
+11605.4s 315 "competition_data_only": true,
+11605.4s 316 "device": "cuda",
+11605.4s 317 "model_oof_auc": {
+11605.4s 318 "xgb_aug": 0.9655843017533827,
+11605.4s 319 "xgb_te": 0.9680928312543742,
+11605.4s 320 "xgb_lattice": 0.9681428773176508,
+11605.4s 321 "lgb_te": 0.9677546602793923,
+11605.4s 322 "cat_aug": 0.9643734282642428
+11605.4s 323 },
+11605.4s 324 "xgb_te_gain_vs_aug": 0.002508529500991452,
+11605.4s 325 "lattice_gain_vs_te": 5.004606327663197e-05,
+11605.4s 326 "best_single_model": "xgb_lattice",
+11605.4s 327 "best_single_oof_auc": 0.9681428773176508,
+11605.4s 328 "logit_stack_oof_auc": 0.9685337715394646,
+11605.4s 329 "logit_stack_gain": 0.00039089422181382005,
+11605.4s 330 "logit_stack_positive_folds": 5,
+11605.4s 331 "stack_accepted": true,
+11605.4s 332 "selected_model": "logit_stack",
+11605.4s 333 "selected_oof_auc": 0.9685337715394646,
+11605.4s 334 "selected_test_mean": 0.7093781853779526,
+11605.4s 335 "train_target_mean": 0.7094243450313797,
+11605.4s 336 "selection_reason": "cross-fitted logit stack passed fixed guardrails",
+11605.4s 337 "outer_folds": 5,
+11605.4s 338 "inner_folds": 5,
+11605.4s 339 "target_encoding_smoothing": 10.0,
+11605.4s 340 "elapsed_minutes": 193.09398112694421,
+11605.4s 341 "submission_path": "/kaggle/working/submission.csv"
+11605.4s 342 }
+11609.8s 343 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+11609.8s 344 cells[i][c] = re.sub('\\\\\|', '|', cell)
+11610.0s 345 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+11610.0s 346 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+11611.5s 347 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+11612.0s 348 [NbConvertApp] Writing 66514 bytes to __notebook__.ipynb
+11616.1s 349 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+11617.4s 350 [NbConvertApp] Writing 451382 bytes to __results__.html

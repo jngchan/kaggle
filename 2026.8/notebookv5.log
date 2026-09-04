@@ -1,0 +1,159 @@
+6.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.9s 3 0.00s - to python to disable frozen modules.
+6.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+7.5s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+7.5s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+7.5s 7 0.00s - to python to disable frozen modules.
+7.5s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+20.1s 9 Using competition data from: /kaggle/input/competitions/playground-series-s6e8
+23.2s 10 Running adversarial validation...
+89.7s 11 train=691,369, test=296,302, base_features=38, xgb_device=cpu, mlp_device=cuda, domain_auc=0.565549
+90.1s 12 
+90.1s 13 ===== fold 1/5: native model =====
+91.9s 14 Training until validation scores don't improve for 150 rounds
+103.4s 15 [200]	valid_0's auc: 0.951975	valid_0's binary_logloss: 0.253951
+114.4s 16 [400]	valid_0's auc: 0.957957	valid_0's binary_logloss: 0.237847
+123.9s 17 [600]	valid_0's auc: 0.960156	valid_0's binary_logloss: 0.231588
+132.1s 18 [800]	valid_0's auc: 0.961078	valid_0's binary_logloss: 0.228807
+140.0s 19 [1000]	valid_0's auc: 0.961605	valid_0's binary_logloss: 0.227216
+148.0s 20 [1200]	valid_0's auc: 0.962045	valid_0's binary_logloss: 0.225827
+155.7s 21 [1400]	valid_0's auc: 0.962391	valid_0's binary_logloss: 0.224718
+163.1s 22 [1600]	valid_0's auc: 0.962606	valid_0's binary_logloss: 0.224002
+170.4s 23 [1800]	valid_0's auc: 0.962769	valid_0's binary_logloss: 0.223472
+177.9s 24 [2000]	valid_0's auc: 0.962893	valid_0's binary_logloss: 0.223039
+185.3s 25 [2200]	valid_0's auc: 0.963004	valid_0's binary_logloss: 0.222662
+192.5s 26 [2400]	valid_0's auc: 0.96309	valid_0's binary_logloss: 0.222359
+199.7s 27 [2600]	valid_0's auc: 0.963144	valid_0's binary_logloss: 0.222149
+207.0s 28 [2800]	valid_0's auc: 0.963222	valid_0's binary_logloss: 0.221896
+214.1s 29 [3000]	valid_0's auc: 0.963267	valid_0's binary_logloss: 0.221725
+214.1s 30 Did not meet early stopping. Best iteration is:
+214.1s 31 [2990]	valid_0's auc: 0.963269	valid_0's binary_logloss: 0.22172
+246.8s 32 ===== fold 1/5: semantic imputation =====
+247.1s 33 fitting imputer: daily_screen_time_hours
+254.9s 34 fitting imputer: weekend_screen_time
+262.4s 35 fitting imputer: social_media_hours
+270.1s 36 fitting imputer: gaming_hours
+278.0s 37 fitting imputer: work_study_hours
+296.3s 38 ===== fold 1/5: semantic model =====
+298.6s 39 Training until validation scores don't improve for 200 rounds
+314.7s 40 [200]	valid_0's auc: 0.952993	valid_0's binary_logloss: 0.250744
+329.4s 41 [400]	valid_0's auc: 0.959114	valid_0's binary_logloss: 0.234468
+341.8s 42 [600]	valid_0's auc: 0.96089	valid_0's binary_logloss: 0.229365
+352.8s 43 [800]	valid_0's auc: 0.961649	valid_0's binary_logloss: 0.227083
+363.6s 44 [1000]	valid_0's auc: 0.962207	valid_0's binary_logloss: 0.22541
+374.2s 45 [1200]	valid_0's auc: 0.962554	valid_0's binary_logloss: 0.224331
+384.9s 46 [1400]	valid_0's auc: 0.962878	valid_0's binary_logloss: 0.223307
+395.4s 47 [1600]	valid_0's auc: 0.963114	valid_0's binary_logloss: 0.222543
+405.6s 48 [1800]	valid_0's auc: 0.963305	valid_0's binary_logloss: 0.22192
+415.6s 49 [2000]	valid_0's auc: 0.963426	valid_0's binary_logloss: 0.2215
+425.4s 50 [2200]	valid_0's auc: 0.963503	valid_0's binary_logloss: 0.221224
+435.3s 51 [2400]	valid_0's auc: 0.96358	valid_0's binary_logloss: 0.220948
+445.1s 52 [2600]	valid_0's auc: 0.963632	valid_0's binary_logloss: 0.220755
+455.1s 53 [2800]	valid_0's auc: 0.963683	valid_0's binary_logloss: 0.220566
+464.9s 54 [3000]	valid_0's auc: 0.963712	valid_0's binary_logloss: 0.220446
+474.5s 55 [3200]	valid_0's auc: 0.963731	valid_0's binary_logloss: 0.220356
+484.2s 56 [3400]	valid_0's auc: 0.963754	valid_0's binary_logloss: 0.220247
+493.8s 57 [3600]	valid_0's auc: 0.963789	valid_0's binary_logloss: 0.220121
+503.4s 58 [3800]	valid_0's auc: 0.963806	valid_0's binary_logloss: 0.220048
+513.2s 59 [4000]	valid_0's auc: 0.963811	valid_0's binary_logloss: 0.220022
+522.8s 60 [4200]	valid_0's auc: 0.963835	valid_0's binary_logloss: 0.219931
+532.2s 61 [4400]	valid_0's auc: 0.96381	valid_0's binary_logloss: 0.219991
+532.2s 62 Early stopping, best iteration is:
+532.2s 63 [4200]	valid_0's auc: 0.963835	valid_0's binary_logloss: 0.219931
+577.1s 64 ===== fold 1/5: semantic XGBoost =====
+581.0s 65 [0]	validation_0-auc:0.93509
+614.0s 66 [200]	validation_0-auc:0.94802
+643.0s 67 [400]	validation_0-auc:0.95620
+672.2s 68 [600]	validation_0-auc:0.96008
+700.8s 69 [800]	validation_0-auc:0.96189
+729.0s 70 [1000]	validation_0-auc:0.96278
+757.3s 71 [1200]	validation_0-auc:0.96331
+785.6s 72 [1400]	validation_0-auc:0.96364
+814.0s 73 [1600]	validation_0-auc:0.96388
+842.3s 74 [1800]	validation_0-auc:0.96405
+870.5s 75 [2000]	validation_0-auc:0.96413
+898.5s 76 [2200]	validation_0-auc:0.96419
+927.1s 77 [2400]	validation_0-auc:0.96426
+955.6s 78 [2600]	validation_0-auc:0.96429
+983.8s 79 [2800]	validation_0-auc:0.96431
+999.4s 80 [2912]	validation_0-auc:0.96432
+1015.4s 81 ===== fold 1/5: MLP preparation =====
+1017.8s 82 ===== fold 1/5: plain MLP =====
+1017.9s 83 /usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning:
+1017.9s 84 Found GPU0 Tesla P100-PCIE-16GB which is of cuda capability 6.0.
+1017.9s 85 Minimum and Maximum cuda capability supported by this version of PyTorch is
+1017.9s 86 (7.0) - (12.0)
+1017.9s 87 
+1017.9s 88 queued_call()
+1017.9s 89 /usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning:
+1017.9s 90 Please install PyTorch with a following CUDA
+1017.9s 91 configurations:  12.6 following instructions at
+1017.9s 92 https://pytorch.org/get-started/locally/
+1017.9s 93 
+1017.9s 94 queued_call()
+1017.9s 95 /usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning:
+1017.9s 96 Tesla P100-PCIE-16GB with CUDA capability sm_60 is not compatible with the current PyTorch installation.
+1017.9s 97 The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+1017.9s 98 If you want to use the Tesla P100-PCIE-16GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+1017.9s 99 
+1017.9s 100 queued_call()
+1017.9s 101 
+1017.9s 102 /usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning:
+1017.9s 103 Found GPU0 Tesla P100-PCIE-16GB which is of cuda capability 6.0.
+1017.9s 104 Minimum and Maximum cuda capability supported by this version of PyTorch is
+1017.9s 105 (7.0) - (12.0)
+1017.9s 106 
+1017.9s 107 queued_call()
+1017.9s 108 /usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning:
+1017.9s 109 Please install PyTorch with a following CUDA
+1017.9s 110 configurations:  12.6 following instructions at
+1017.9s 111 https://pytorch.org/get-started/locally/
+1017.9s 112 
+1017.9s 113 queued_call()
+1017.9s 114 /usr/local/lib/python3.12/dist-packages/torch/cuda/__init__.py:435: UserWarning:
+1017.9s 115 Tesla P100-PCIE-16GB with CUDA capability sm_60 is not compatible with the current PyTorch installation.
+1017.9s 116 The current PyTorch install supports CUDA capabilities sm_70 sm_75 sm_80 sm_86 sm_90 sm_100 sm_120.
+1017.9s 117 If you want to use the Tesla P100-PCIE-16GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+1017.9s 118 
+1017.9s 119 queued_call()
+1020.8s 120 Traceback (most recent call last):
+1020.8s 121 File "<string>", line 1, in <module>
+1020.8s 122 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 131, in execute_notebook
+1020.8s 123 raise_for_execution_errors(nb, output_path)
+1020.8s 124 File "/usr/local/lib/python3.12/dist-packages/papermill/execute.py", line 251, in raise_for_execution_errors
+1020.8s 125 raise error
+1020.8s 126 papermill.exceptions.PapermillExecutionError:
+1020.8s 127 ---------------------------------------------------------------------------
+1020.8s 128 Exception encountered at "In [1]":
+1020.8s 129 ---------------------------------------------------------------------------
+1020.8s 130 TypeError                                 Traceback (most recent call last)
+1020.8s 131 /tmp/ipykernel_22/882691213.py in <cell line: 0>()
+1020.8s 132 1233
+1020.8s 133 1234 if __name__ == "__main__":
+1020.8s 134 -> 1235     main()
+1020.8s 135 
+1020.8s 136 /tmp/ipykernel_22/882691213.py in main()
+1020.8s 137 890             plain_epoch,
+1020.8s 138 891             plain_history,
+1020.8s 139 --> 892         ) = fit_tabular_mlp(
+1020.8s 140 893             mlp_fit_x,
+1020.8s 141 894             fit_y_array,
+1020.8s 142 
+1020.8s 143 /tmp/ipykernel_22/882691213.py in fit_tabular_mlp(train_x, train_y, valid_x, valid_y, test_x, seed, label)
+1020.8s 144 439     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+1020.8s 145 440     model = TabularMLP(train_x.shape[1]).to(device)
+1020.8s 146 --> 441     optimizer = torch.optim.AdamW(
+1020.8s 147 442         model.parameters(), learning_rate=1e-3, weight_decay=1e-4
+1020.8s 148 443     )
+1020.8s 149 
+1020.8s 150 TypeError: AdamW.__init__() got an unexpected keyword argument 'learning_rate'
+1020.8s 151 
+1023.0s 152 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+1023.0s 153 cells[i][c] = re.sub('\\\\\|', '|', cell)
+1023.1s 154 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+1023.1s 155 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+1023.8s 156 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+1024.2s 157 [NbConvertApp] Writing 70711 bytes to __notebook__.ipynb
+1026.8s 158 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1027.9s 159 [NbConvertApp] Writing 504172 bytes to __results__.html

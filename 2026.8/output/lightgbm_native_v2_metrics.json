@@ -1,0 +1,17 @@
+{
+  "model": "lightgbm",
+  "experiment_name": "lightgbm_native_v2",
+  "oof_auc": 0.9637943150317911,
+  "fold_auc_mean": 0.9637980275959326,
+  "fold_auc_std": 0.0007440639273339904,
+  "elapsed_minutes": 109.14363251924514,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count_min": 49,
+  "feature_count_max": 49,
+  "missing_strategy": "native",
+  "preset": "baseline",
+  "fold_registry": "fold_registry_5fold_seed2026_full.csv"
+}

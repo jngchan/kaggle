@@ -1,0 +1,43 @@
+{
+  "version": "v4",
+  "models": {
+    "native": {
+      "oof_auc": 0.9638653666286137,
+      "drift_weighted_oof_auc": 0.9640792604049642
+    },
+    "semantic": {
+      "oof_auc": 0.9645050946050624,
+      "drift_weighted_oof_auc": 0.9647181968767682
+    },
+    "xgb_baseline": {
+      "oof_auc": 0.9650292227469464,
+      "drift_weighted_oof_auc": 0.9652314381843573
+    },
+    "xgb_latent": {
+      "oof_auc": 0.96486447891036,
+      "drift_weighted_oof_auc": 0.9650681053578675
+    }
+  },
+  "latent_vs_baseline_oof_gain": -0.00016474383658637848,
+  "latent_vs_baseline_drift_weighted_gain": -0.00016333282648983705,
+  "latent_positive_folds": 0,
+  "feature_accepted": false,
+  "v3_fixed_oof_auc": 0.9651852414737245,
+  "v3_fixed_drift_weighted_oof_auc": 0.9653870527271244,
+  "selected_oof_auc": 0.9651852414737245,
+  "selected_drift_weighted_oof_auc": 0.9653870527271244,
+  "selected_weights": {
+    "native": 0.1,
+    "semantic": 0.25,
+    "xgb_baseline": 0.65,
+    "xgb_latent": 0.0
+  },
+  "selected_blend_type": "raw",
+  "blend_accepted": false,
+  "selection_reason": "CV guardrail fallback to fixed V3 blend",
+  "folds": 5,
+  "seed": 2026,
+  "xgb_device": "cpu",
+  "elapsed_minutes": 161.89867371718088,
+  "submission_path": "/kaggle/working/submission.csv"
+}

@@ -1,0 +1,7 @@
+{
+  "selected_candidate": "lightgbm",
+  "selected_oof_auc": 0.9638653908639585,
+  "submission_rows": 296302,
+  "prediction_min": 0.00011824909597635269,
+  "prediction_max": 0.9999999403953552
+}

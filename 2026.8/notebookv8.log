@@ -1,0 +1,195 @@
+8.5s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+8.5s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+8.5s 3 0.00s - to python to disable frozen modules.
+8.5s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+9.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.3s 7 0.00s - to python to disable frozen modules.
+9.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+17.8s 9 Using competition data from: /kaggle/input/competitions/playground-series-s6e8
+22.0s 10 train=691,369, test=296,302, screening_folds=3, inner_folds=3, xgb_device=cpu
+22.4s 11 
+22.4s 12 ===== fold 1/3: semantic imputation =====
+22.7s 13 fitting imputer: daily_screen_time_hours
+31.9s 14 fitting imputer: weekend_screen_time
+40.4s 15 fitting imputer: social_media_hours
+48.7s 16 fitting imputer: gaming_hours
+57.3s 17 fitting imputer: work_study_hours
+77.6s 18 ===== fold 1/3: baseline XGBoost =====
+81.5s 19 [0]	validation_0-auc:0.93523
+129.4s 20 [200]	validation_0-auc:0.94837
+173.8s 21 [400]	validation_0-auc:0.95691
+218.1s 22 [600]	validation_0-auc:0.96060
+261.6s 23 [800]	validation_0-auc:0.96242
+305.2s 24 [1000]	validation_0-auc:0.96321
+348.3s 25 [1200]	validation_0-auc:0.96371
+391.5s 26 [1400]	validation_0-auc:0.96402
+434.5s 27 [1600]	validation_0-auc:0.96424
+477.3s 28 [1800]	validation_0-auc:0.96441
+519.8s 29 [2000]	validation_0-auc:0.96450
+562.2s 30 [2200]	validation_0-auc:0.96459
+604.6s 31 [2400]	validation_0-auc:0.96465
+646.7s 32 [2600]	validation_0-auc:0.96467
+688.9s 33 [2800]	validation_0-auc:0.96469
+731.3s 34 [3000]	validation_0-auc:0.96469
+751.4s 35 [3093]	validation_0-auc:0.96468
+777.4s 36 ===== fold 1/3: cross-fitted spline main effects =====
+835.1s 37 /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_stochastic_gradient.py:738: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+835.1s 38 warnings.warn(
+835.1s 39 
+835.1s 40 /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_stochastic_gradient.py:738: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+835.1s 41 warnings.warn(
+901.3s 42 ===== fold 1/3: residual XGBoost =====
+905.0s 43 [0]	validation_0-auc:0.93377
+945.2s 44 [200]	validation_0-auc:0.94709
+984.9s 45 [400]	validation_0-auc:0.95407
+1024.7s 46 [600]	validation_0-auc:0.95754
+1064.0s 47 [800]	validation_0-auc:0.95987
+1103.1s 48 [1000]	validation_0-auc:0.96133
+1142.2s 49 [1200]	validation_0-auc:0.96216
+1180.9s 50 [1400]	validation_0-auc:0.96276
+1220.2s 51 [1600]	validation_0-auc:0.96324
+1259.1s 52 [1800]	validation_0-auc:0.96365
+1297.9s 53 [2000]	validation_0-auc:0.96397
+1337.0s 54 [2200]	validation_0-auc:0.96416
+1375.7s 55 [2400]	validation_0-auc:0.96436
+1414.5s 56 [2600]	validation_0-auc:0.96453
+1453.5s 57 [2800]	validation_0-auc:0.96464
+1492.2s 58 [2999]	validation_0-auc:0.96471
+1509.8s 59 fold 1: baseline=0.9646955, additive=0.9334530, residual=0.9647080, delta=+0.0000125
+1510.3s 60 
+1510.3s 61 ===== fold 2/3: semantic imputation =====
+1510.6s 62 fitting imputer: daily_screen_time_hours
+1519.6s 63 fitting imputer: weekend_screen_time
+1528.1s 64 fitting imputer: social_media_hours
+1536.5s 65 fitting imputer: gaming_hours
+1545.2s 66 fitting imputer: work_study_hours
+1565.8s 67 ===== fold 2/3: baseline XGBoost =====
+1569.7s 68 [0]	validation_0-auc:0.93508
+1617.4s 69 [200]	validation_0-auc:0.94818
+1661.2s 70 [400]	validation_0-auc:0.95678
+1704.8s 71 [600]	validation_0-auc:0.96056
+1748.2s 72 [800]	validation_0-auc:0.96234
+1791.2s 73 [1000]	validation_0-auc:0.96319
+1834.1s 74 [1200]	validation_0-auc:0.96377
+1877.1s 75 [1400]	validation_0-auc:0.96412
+1920.1s 76 [1600]	validation_0-auc:0.96437
+1963.3s 77 [1800]	validation_0-auc:0.96455
+2006.4s 78 [2000]	validation_0-auc:0.96465
+2049.5s 79 [2200]	validation_0-auc:0.96470
+2092.2s 80 [2400]	validation_0-auc:0.96477
+2136.1s 81 [2600]	validation_0-auc:0.96483
+2179.0s 82 [2800]	validation_0-auc:0.96484
+2222.8s 83 [3000]	validation_0-auc:0.96486
+2266.4s 84 [3200]	validation_0-auc:0.96486
+2309.3s 85 [3400]	validation_0-auc:0.96485
+2317.2s 86 [3437]	validation_0-auc:0.96485
+2346.0s 87 ===== fold 2/3: cross-fitted spline main effects =====
+2430.7s 88 /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_stochastic_gradient.py:738: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+2430.7s 89 warnings.warn(
+2430.7s 90 
+2430.7s 91 /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_stochastic_gradient.py:738: ConvergenceWarning: Maximum number of iteration reached before convergence. Consider increasing max_iter to improve the fit.
+2430.7s 92 warnings.warn(
+2468.6s 93 ===== fold 2/3: residual XGBoost =====
+2472.4s 94 [0]	validation_0-auc:0.93420
+2513.6s 95 [200]	validation_0-auc:0.94691
+2553.6s 96 [400]	validation_0-auc:0.95392
+2592.9s 97 [600]	validation_0-auc:0.95765
+2632.7s 98 [800]	validation_0-auc:0.96003
+2671.9s 99 [1000]	validation_0-auc:0.96149
+2711.3s 100 [1200]	validation_0-auc:0.96240
+2751.0s 101 [1400]	validation_0-auc:0.96303
+2790.5s 102 [1600]	validation_0-auc:0.96355
+2829.7s 103 [1800]	validation_0-auc:0.96385
+2868.9s 104 [2000]	validation_0-auc:0.96412
+2908.3s 105 [2200]	validation_0-auc:0.96433
+2947.4s 106 [2400]	validation_0-auc:0.96450
+2987.1s 107 [2600]	validation_0-auc:0.96466
+3026.1s 108 [2800]	validation_0-auc:0.96480
+3065.1s 109 [2999]	validation_0-auc:0.96491
+3082.7s 110 fold 2: baseline=0.9648685, additive=0.9338877, residual=0.9649074, delta=+0.0000389
+3083.1s 111 
+3083.1s 112 ===== fold 3/3: semantic imputation =====
+3083.4s 113 fitting imputer: daily_screen_time_hours
+3092.4s 114 fitting imputer: weekend_screen_time
+3100.6s 115 fitting imputer: social_media_hours
+3108.8s 116 fitting imputer: gaming_hours
+3117.3s 117 fitting imputer: work_study_hours
+3137.6s 118 ===== fold 3/3: baseline XGBoost =====
+3141.5s 119 [0]	validation_0-auc:0.93484
+3188.2s 120 [200]	validation_0-auc:0.94774
+3232.3s 121 [400]	validation_0-auc:0.95611
+3275.6s 122 [600]	validation_0-auc:0.95995
+3318.5s 123 [800]	validation_0-auc:0.96155
+3361.0s 124 [1000]	validation_0-auc:0.96251
+3403.9s 125 [1200]	validation_0-auc:0.96301
+3446.7s 126 [1400]	validation_0-auc:0.96343
+3489.3s 127 [1600]	validation_0-auc:0.96365
+3532.1s 128 [1800]	validation_0-auc:0.96381
+3575.0s 129 [2000]	validation_0-auc:0.96391
+3617.7s 130 [2200]	validation_0-auc:0.96401
+3660.3s 131 [2400]	validation_0-auc:0.96408
+3702.9s 132 [2600]	validation_0-auc:0.96413
+3745.5s 133 [2800]	validation_0-auc:0.96412
+3787.9s 134 [3000]	validation_0-auc:0.96414
+3812.1s 135 [3113]	validation_0-auc:0.96413
+3838.0s 136 ===== fold 3/3: cross-fitted spline main effects =====
+3955.7s 137 ===== fold 3/3: residual XGBoost =====
+3959.5s 138 [0]	validation_0-auc:0.93342
+4000.6s 139 [200]	validation_0-auc:0.94614
+4040.7s 140 [400]	validation_0-auc:0.95313
+4080.4s 141 [600]	validation_0-auc:0.95671
+4120.5s 142 [800]	validation_0-auc:0.95914
+4159.8s 143 [1000]	validation_0-auc:0.96063
+4199.2s 144 [1200]	validation_0-auc:0.96159
+4238.3s 145 [1400]	validation_0-auc:0.96222
+4277.5s 146 [1600]	validation_0-auc:0.96270
+4316.9s 147 [1800]	validation_0-auc:0.96307
+4356.1s 148 [2000]	validation_0-auc:0.96337
+4395.2s 149 [2200]	validation_0-auc:0.96363
+4434.6s 150 [2400]	validation_0-auc:0.96381
+4474.2s 151 [2600]	validation_0-auc:0.96397
+4513.6s 152 [2800]	validation_0-auc:0.96408
+4552.7s 153 [2999]	validation_0-auc:0.96416
+4570.1s 154 fold 3: baseline=0.9641483, additive=0.9330852, residual=0.9641645, delta=+0.0000162
+4584.0s 155 
+4584.0s 156 V8 structural screening complete
+4584.0s 157 {
+4584.0s 158 "version": "v8_structural_screen",
+4584.0s 159 "baseline_oof_auc": 0.9645701498975251,
+4584.0s 160 "spline_additive_oof_auc": 0.933468068246349,
+4584.0s 161 "spline_residual_oof_auc": 0.9645924109904057,
+4584.0s 162 "spline_residual_gain": 2.2261092880615507e-05,
+4584.0s 163 "baseline_drift_weighted_auc": 0.9647718820988959,
+4584.0s 164 "spline_residual_drift_weighted_auc": 0.9648095400366861,
+4584.0s 165 "spline_residual_drift_gain": 3.76579377902031e-05,
+4584.0s 166 "positive_folds": 3,
+4584.0s 167 "model_accepted": false,
+4584.0s 168 "selected_oof_auc": 0.9645701498975251,
+4584.0s 169 "selected_drift_weighted_auc": 0.9647718820988959,
+4584.0s 170 "selected_residual_weight": 0.0,
+4584.0s 171 "blend_accepted": false,
+4584.0s 172 "selection_reason": "screening fallback to 3-fold semantic XGBoost baseline",
+4584.0s 173 "screening_only": true,
+4584.0s 174 "v3_preserved_separately": true,
+4584.0s 175 "outer_folds": 3,
+4584.0s 176 "inner_folds": 3,
+4584.0s 177 "spline_knots": 10,
+4584.0s 178 "guardrails": {
+4584.0s 179 "min_oof_gain": 0.0002,
+4584.0s 180 "min_weighted_gain": 0.0002,
+4584.0s 181 "min_positive_folds": 3
+4584.0s 182 },
+4584.0s 183 "seed": 2026,
+4584.0s 184 "xgb_device": "cpu",
+4584.0s 185 "elapsed_minutes": 76.10478071769079,
+4584.0s 186 "submission_path": "/kaggle/working/submission.csv"
+4584.0s 187 }
+4588.1s 188 /usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+4588.1s 189 cells[i][c] = re.sub('\\\\\|', '|', cell)
+4588.3s 190 /usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+4588.3s 191 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+4589.2s 192 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+4589.6s 193 [NbConvertApp] Writing 53299 bytes to __notebook__.ipynb
+4592.9s 194 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+4594.2s 195 [NbConvertApp] Writing 440499 bytes to __results__.html

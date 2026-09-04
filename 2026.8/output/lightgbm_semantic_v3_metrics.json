@@ -1,0 +1,17 @@
+{
+  "model": "lightgbm",
+  "experiment_name": "lightgbm_semantic_v3",
+  "oof_auc": 0.9643986198142408,
+  "fold_auc_mean": 0.9644009885715683,
+  "fold_auc_std": 0.0007490356084012505,
+  "elapsed_minutes": 62.10395850340525,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count_min": 69,
+  "feature_count_max": 69,
+  "missing_strategy": "semantic",
+  "preset": "baseline",
+  "fold_registry": "fold_registry_5fold_seed2026_full.csv"
+}

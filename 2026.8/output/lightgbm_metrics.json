@@ -1,0 +1,12 @@
+{
+  "model": "lightgbm",
+  "oof_auc": 0.9638653908639585,
+  "fold_auc_mean": 0.9638686502416854,
+  "fold_auc_std": 0.00076418833976499,
+  "elapsed_minutes": 12.854294649759929,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count": 46
+}

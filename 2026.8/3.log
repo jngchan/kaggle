@@ -1,0 +1,113 @@
+nohup: ignoring input
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.952336	valid_0's binary_logloss: 0.253103
+[400]	valid_0's auc: 0.957963	valid_0's binary_logloss: 0.23783
+[600]	valid_0's auc: 0.960279	valid_0's binary_logloss: 0.231254
+[800]	valid_0's auc: 0.961204	valid_0's binary_logloss: 0.228499
+[1000]	valid_0's auc: 0.961748	valid_0's binary_logloss: 0.226806
+[1200]	valid_0's auc: 0.962091	valid_0's binary_logloss: 0.225708
+[1400]	valid_0's auc: 0.962355	valid_0's binary_logloss: 0.224853
+[1600]	valid_0's auc: 0.962572	valid_0's binary_logloss: 0.224156
+[1800]	valid_0's auc: 0.96274	valid_0's binary_logloss: 0.223599
+[2000]	valid_0's auc: 0.962861	valid_0's binary_logloss: 0.223185
+[2200]	valid_0's auc: 0.962972	valid_0's binary_logloss: 0.222798
+[2400]	valid_0's auc: 0.963046	valid_0's binary_logloss: 0.222522
+[2600]	valid_0's auc: 0.963119	valid_0's binary_logloss: 0.222254
+[2800]	valid_0's auc: 0.963181	valid_0's binary_logloss: 0.222032
+[3000]	valid_0's auc: 0.963226	valid_0's binary_logloss: 0.221851
+Did not meet early stopping. Best iteration is:
+[2982]	valid_0's auc: 0.963227	valid_0's binary_logloss: 0.221852
+lightgbm fold 1/5: AUC=0.9632272
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.953388	valid_0's binary_logloss: 0.250687
+[400]	valid_0's auc: 0.959542	valid_0's binary_logloss: 0.233931
+[600]	valid_0's auc: 0.961717	valid_0's binary_logloss: 0.227665
+[800]	valid_0's auc: 0.962625	valid_0's binary_logloss: 0.224876
+[1000]	valid_0's auc: 0.963197	valid_0's binary_logloss: 0.223067
+[1200]	valid_0's auc: 0.963503	valid_0's binary_logloss: 0.222053
+[1400]	valid_0's auc: 0.96375	valid_0's binary_logloss: 0.221231
+[1600]	valid_0's auc: 0.963934	valid_0's binary_logloss: 0.220605
+[1800]	valid_0's auc: 0.964098	valid_0's binary_logloss: 0.220034
+[2000]	valid_0's auc: 0.964194	valid_0's binary_logloss: 0.219653
+[2200]	valid_0's auc: 0.96425	valid_0's binary_logloss: 0.219412
+[2400]	valid_0's auc: 0.964341	valid_0's binary_logloss: 0.219084
+[2600]	valid_0's auc: 0.964404	valid_0's binary_logloss: 0.218835
+[2800]	valid_0's auc: 0.964489	valid_0's binary_logloss: 0.218526
+[3000]	valid_0's auc: 0.964549	valid_0's binary_logloss: 0.218295
+Did not meet early stopping. Best iteration is:
+[3000]	valid_0's auc: 0.964549	valid_0's binary_logloss: 0.218295
+lightgbm fold 2/5: AUC=0.9645487
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.95338	valid_0's binary_logloss: 0.250811
+[400]	valid_0's auc: 0.959453	valid_0's binary_logloss: 0.234263
+[600]	valid_0's auc: 0.96158	valid_0's binary_logloss: 0.228132
+[800]	valid_0's auc: 0.962684	valid_0's binary_logloss: 0.224763
+[1000]	valid_0's auc: 0.963229	valid_0's binary_logloss: 0.223046
+[1200]	valid_0's auc: 0.963629	valid_0's binary_logloss: 0.221751
+[1400]	valid_0's auc: 0.963913	valid_0's binary_logloss: 0.220807
+[1600]	valid_0's auc: 0.964084	valid_0's binary_logloss: 0.220202
+[1800]	valid_0's auc: 0.964225	valid_0's binary_logloss: 0.219684
+[2000]	valid_0's auc: 0.964415	valid_0's binary_logloss: 0.219029
+[2200]	valid_0's auc: 0.964514	valid_0's binary_logloss: 0.218671
+[2400]	valid_0's auc: 0.964618	valid_0's binary_logloss: 0.218284
+[2600]	valid_0's auc: 0.9647	valid_0's binary_logloss: 0.217957
+[2800]	valid_0's auc: 0.964762	valid_0's binary_logloss: 0.217716
+[3000]	valid_0's auc: 0.964795	valid_0's binary_logloss: 0.217568
+Did not meet early stopping. Best iteration is:
+[2992]	valid_0's auc: 0.964798	valid_0's binary_logloss: 0.217563
+lightgbm fold 3/5: AUC=0.9647980
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.952789	valid_0's binary_logloss: 0.251875
+[400]	valid_0's auc: 0.958746	valid_0's binary_logloss: 0.235872
+[600]	valid_0's auc: 0.960687	valid_0's binary_logloss: 0.230316
+[800]	valid_0's auc: 0.961654	valid_0's binary_logloss: 0.227475
+[1000]	valid_0's auc: 0.962324	valid_0's binary_logloss: 0.225421
+[1200]	valid_0's auc: 0.962665	valid_0's binary_logloss: 0.224327
+[1400]	valid_0's auc: 0.962953	valid_0's binary_logloss: 0.223396
+[1600]	valid_0's auc: 0.963184	valid_0's binary_logloss: 0.222615
+[1800]	valid_0's auc: 0.963384	valid_0's binary_logloss: 0.221953
+[2000]	valid_0's auc: 0.963524	valid_0's binary_logloss: 0.221471
+[2200]	valid_0's auc: 0.963641	valid_0's binary_logloss: 0.221056
+[2400]	valid_0's auc: 0.963748	valid_0's binary_logloss: 0.220676
+[2600]	valid_0's auc: 0.963851	valid_0's binary_logloss: 0.220322
+[2800]	valid_0's auc: 0.963899	valid_0's binary_logloss: 0.220136
+[3000]	valid_0's auc: 0.963918	valid_0's binary_logloss: 0.220031
+Did not meet early stopping. Best iteration is:
+[2981]	valid_0's auc: 0.963922	valid_0's binary_logloss: 0.220024
+lightgbm fold 4/5: AUC=0.9639219
+Training until validation scores don't improve for 150 rounds
+[200]	valid_0's auc: 0.952307	valid_0's binary_logloss: 0.252856
+[400]	valid_0's auc: 0.957946	valid_0's binary_logloss: 0.237651
+[600]	valid_0's auc: 0.959966	valid_0's binary_logloss: 0.231935
+[800]	valid_0's auc: 0.96089	valid_0's binary_logloss: 0.229214
+[1000]	valid_0's auc: 0.961469	valid_0's binary_logloss: 0.227474
+[1200]	valid_0's auc: 0.961894	valid_0's binary_logloss: 0.226147
+[1400]	valid_0's auc: 0.962146	valid_0's binary_logloss: 0.225336
+[1600]	valid_0's auc: 0.962373	valid_0's binary_logloss: 0.224606
+[1800]	valid_0's auc: 0.962545	valid_0's binary_logloss: 0.224037
+[2000]	valid_0's auc: 0.962703	valid_0's binary_logloss: 0.223518
+[2200]	valid_0's auc: 0.962791	valid_0's binary_logloss: 0.223194
+[2400]	valid_0's auc: 0.962821	valid_0's binary_logloss: 0.223071
+[2600]	valid_0's auc: 0.962886	valid_0's binary_logloss: 0.222838
+[2800]	valid_0's auc: 0.962933	valid_0's binary_logloss: 0.222674
+[3000]	valid_0's auc: 0.963008	valid_0's binary_logloss: 0.222416
+Did not meet early stopping. Best iteration is:
+[3000]	valid_0's auc: 0.963008	valid_0's binary_logloss: 0.222416
+lightgbm fold 5/5: AUC=0.9630077
+{
+  "model": "lightgbm",
+  "experiment_name": "lightgbm_median_v2",
+  "oof_auc": 0.9638990260618985,
+  "fold_auc_mean": 0.9639006867219491,
+  "fold_auc_std": 0.0007868394569394225,
+  "elapsed_minutes": 147.72990313768386,
+  "folds": 5,
+  "seed": 2026,
+  "sample_fraction": 1.0,
+  "train_rows": 691369,
+  "feature_count_min": 72,
+  "feature_count_max": 72,
+  "missing_strategy": "median",
+  "preset": "baseline",
+  "fold_registry": "fold_registry_5fold_seed2026_full.csv"
+}

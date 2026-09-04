@@ -1,0 +1,4 @@
+candidate,type,oof_auc
+lightgbm,single,0.9638653908639585
+rank_blend_lightgbm_catboost,equal_rank_blend,0.963609042975152
+catboost,single,0.9623740973339148
